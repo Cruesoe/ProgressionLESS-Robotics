@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_Agrihand</defName>
+		<label>Agrihand</label>
+		<description>Build a small mechanoid designed to sow and harvest crops.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<prerequisites>
+			<li>BasicMechtech</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_AirwireHeadset</defName>
+		<label>Airwire headset</label>
+		<description>Manufacture a head-mounted comms computer that slightly enhances a mechanitor's control bandwidth, allowing them to control more mechs.</description>
+		<baseCost>300</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<prerequisites>
+			<li>BasicMechtech</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_BandNode</defName>
+		<label>Band node</label>
+		<description>Build a signal amplifying structure that grants an additional bandwidth to a mechanitor, allowing them to control more mechs.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<prerequisites>
+			<li>Ferny_AirwireHeadset</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Constructoid</defName>
+		<label>Constructoid</label>
+		<description>Build a small mechanoid designed to construct buildings and repair structures.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<prerequisites>
+			<li>BasicMechtech</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_ControlPack</defName>
+		<label>Control pack</label>
+		<description>Manufacture a backpack containing mech control computers, allowing its mechanitor to control one additional group.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<prerequisites>
+			<li>BasicMechtech</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Lifter</defName>
+		<label>Lifter</label>
+		<description>Build a small mechanoid designed to lift and haul objects.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<prerequisites>
+			<li>BasicMechtech</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Militor</defName>
+		<label>Militor</label>
+		<description>Build a small mechanoid equipped with a mini-shotgun, designed for combat and defense.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<prerequisites>
+			<li>BasicMechtech</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</Defs>

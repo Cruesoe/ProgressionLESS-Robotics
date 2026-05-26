@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]/prerequisties</xpath>
+    <value>
+        <prerequisties>
+            <li>VQE_Dronetech</li>
+        </prerequisties>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]/label</xpath>
+    <value>
+        <label>PENIS PENIS</label>
+    </value>
+</Operation>
+
+</Patch>
