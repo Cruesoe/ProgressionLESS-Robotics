@@ -5,9 +5,13 @@
 
     <!-- General -->
     <li IfModActive="ludeon.rimworld.odyssey">Mods and Shit/Odyssey</li>
+<<<<<<< Updated upstream
     <li IfModActiveAll="vanillaquestsexpanded.dronefactory,ludeon.rimworld.biotech">Mods and Shit/Biotech + VQE Drone Factory</li>
+=======
+>>>>>>> Stashed changes
     <li IfModActive="ludeon.rimworld.biotech">Mods and Shit/Biotech</li>
     <li IfModActive="vanillaquestsexpanded.dronefactory">Mods and Shit/VQE Drone Factory</li>
+		<li IfModActiveAll="vanillaquestsexpanded.dronefactory,ludeon.rimworld.biotech">Mods and Shit/Biotech and VQE Drone Factory</li>
 
   </v1.6>
 </loadFolders>

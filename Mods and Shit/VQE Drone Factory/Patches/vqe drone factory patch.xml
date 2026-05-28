@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>   
 
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="VQE_UnfinishedDroneSpawner_AutobroadcasterDrone"]/label</xpath>
+    <value>
+        <label>deployed broadcaster drone</label>
+    </value>
+</Operation>
 
 <!-- Autobroadcaster -> Broadcaster -->
 <Operation Class="PatchOperationReplace">

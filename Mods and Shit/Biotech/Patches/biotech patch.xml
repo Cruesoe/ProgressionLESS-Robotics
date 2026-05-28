@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>
 
+<<<<<<< Updated upstream
     <Operation Class="PatchOperationReplace">
         <success>Always</success>
         <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]/label</xpath>
@@ -15,9 +16,26 @@
             <baseCost>3000</baseCost>
         </value>
     </Operation>
+=======
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]/label</xpath>
+    <value>
+        <label>Mechanoids</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]/baseCost</xpath>
+    <value>
+        <baseCost>3000</baseCost>
+    </value>
+</Operation>
+>>>>>>> Stashed changes
 
     <!-- New research projects -->
 
+<<<<<<< Updated upstream
     <Operation Class="PatchOperationReplace">
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="Agrihand"]/researchPrerequisite</xpath>
@@ -25,6 +43,57 @@
             <researchPrerequisite>Ferny_Agrihand</researchPrerequisite>
         </value>
     </Operation>
+=======
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]/label</xpath>
+    <value>
+        <label>Mechanoids</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]/baseCost</xpath>
+    <value>
+        <baseCost>3000</baseCost>
+    </value>
+</Operation>
+
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]/label</xpath>
+    <value>
+        <label>Large mechanoids</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]/baseCost</xpath>
+    <value>
+        <baseCost>5000</baseCost>
+    </value>
+</Operation>
+
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]/label</xpath>
+    <value>
+        <label>Large mechanoids</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]/baseCost</xpath>
+    <value>
+        <baseCost>5000</baseCost>
+    </value>
+</Operation>
+
+
+<!-- New research projects -->
+>>>>>>> Stashed changes
 
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Apparel_AirwireHeadset"]/recipeMaker/researchPrerequisite</xpath>
@@ -51,6 +120,7 @@
         </value>
     </Operation>
 
+<<<<<<< Updated upstream
     <Operation Class="PatchOperationReplace">
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="Constructoid"]/researchPrerequisite</xpath>
@@ -91,6 +161,38 @@
             </li>
         </value>
     </Operation>
+=======
+<Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef[defName="Constructoid"]</xpath>
+    <value>
+        <researchPrerequisite>Ferny_Constructoid</researchPrerequisite>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PackControl"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+        <researchPrerequisite>Ferny_ControlPack</researchPrerequisite>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef[defName="Lifter"]</xpath>
+    <value>
+        <researchPrerequisite>Ferny_Lifter</researchPrerequisite>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/RecipeDef[defName="Militor"]</xpath>
+    <value>
+        <researchPrerequisite>Ferny_Militor</researchPrerequisite>
+    </value>
+</Operation>
+>>>>>>> Stashed changes
 
     <Operation Class="PatchOperationRemove">
         <xpath>Defs/MapGeneratorDef[defName="Base_Player"]/genSteps/li[text()="AncientExostriderRemains"]</xpath>

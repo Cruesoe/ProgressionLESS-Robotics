@@ -91,4 +91,43 @@
 		</prerequisites>
 	</ResearchProjectDef>
 
+	<ResearchProjectDef>
+		<defName>Ferny_ControlSublink</defName>
+		<label>Control sublink</label>
+		<description>Manufacture a neural implant that allows a mechanitor to control another group and increase mech work speeds.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<prerequisites>
+			<li>BasicMechtech</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_ArrayHeadset</defName>
+		<label>Array headset</label>
+		<description>Manufacture a head-mounted signal array computer that greatly enhances a mechanitor's control bandwidth, allowing them to control significantly more mechs.</description>
+		<baseCost>800</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<prerequisites>
+			<li>Ferny_AirwireHeadset</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_BandwidthPack</defName>
+		<label>Bandwidth pack</label>
+		<description>Manufacture a backpack containing bandwidth enhancement devices, allowing its mechanitor to control one additional group.</description>
+		<baseCost>400</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<prerequisites>
+			<li>BasicMechtech</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
 </Defs>
