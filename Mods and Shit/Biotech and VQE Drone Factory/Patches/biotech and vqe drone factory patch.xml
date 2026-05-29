@@ -4,9 +4,10 @@
 <Operation Class="PatchOperationReplace">
     <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]/prerequisites</xpath>
     <value>
-        <prerequisites>
-            <li>VQE_Dronetech</li>
-        </prerequisites>
+    <prerequisites>
+        <li>MicroelectronicsBasics</li>
+        <li>VQE_Dronetech</li>
+    </prerequisites>
     </value>
 </Operation>
 

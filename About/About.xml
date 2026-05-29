@@ -15,6 +15,7 @@
 		<li>Ludeon.Rimworld.Anomaly</li>
 		<li>Ludeon.Rimworld.Odyssey</li>
 		<li>vanillaquestsexpanded.dronefactory</li>
+		<li>sarg.alphamechs</li>
 	</loadAfter>
 	<!-- <modDependencies>
 		<li>

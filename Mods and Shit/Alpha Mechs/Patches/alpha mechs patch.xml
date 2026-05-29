@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+<!-- repurposing -->
+
+<!-- Light alpha mechs -> Daggersnout -->
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="AM_WorkerStandardMechtech"]/label</xpath>
+    <value>
+        <label>Daggersnout</label>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="AM_WorkerStandardMechtech"]/description</xpath>
+    <value>
+		<description>Build a a fast, insectlike combat mechanoid armed with a vicious sharp blade on its head. It isn't as dangerous as other close-ranged mechanoids, such as scythers, but they usually appear in greater numbers.</description>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="AM_WorkerStandardMechtech"]/baseCost</xpath>
+    <value>
+		<baseCost>500</baseCost>
+    </value>
+</Operation>
+
+<!-- new projects -->
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_Mech_MasterChefRecipe"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Culinarius</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_BlitzkriegRecipe"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Blitzkrieg</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_BellicorRecipe"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Bellicor</researchPrerequisite>
+        </value>
+    </Operation>
+
+
+
+
+</Patch>

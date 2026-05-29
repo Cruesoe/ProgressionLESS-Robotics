@@ -2,6 +2,48 @@
 <Patch>
 
 
+
+<!-- Moving all of it up the tech tree -->
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]/prerequisites</xpath>
+    <value>
+        <prerequisites>
+            <li>MicroelectronicsBasics</li>
+        </prerequisites>    
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="HighMechtech"]/prerequisites</xpath>
+    <value>
+        <prerequisites>
+            <li>StandardMechtech</li>
+        </prerequisites>    
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="UltraMechtech"]/prerequisites</xpath>
+    <value>
+        <prerequisites>
+            <li>HighMechtech</li>
+        </prerequisites>    
+    </value>
+</Operation>
+
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[@Name="MechtechBase"]/techLevel</xpath>
+    <value>
+        <techLevel>Spacer</techLevel>    
+    </value>
+</Operation>
+
 <Operation Class="PatchOperationReplace">
     <success>Always</success>
     <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]/label</xpath>
@@ -17,6 +59,10 @@
     </value>
 </Operation>
 
+<Operation Class="PatchOperationRemove">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[@Name="MechtechBase"]/requiresMechanitor</xpath>
+</Operation>
 
 
 <Operation Class="PatchOperationReplace">
@@ -53,6 +99,48 @@
     </Operation>
 
     <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Apparel_ArrayHeadset"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+            <researchPrerequisite>Ferny_ArrayHeadset</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Apparel_PackBandwidth"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+            <researchPrerequisite>Ferny_BandwidthPack</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="ControlSublink"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+            <researchPrerequisite>Ferny_ControlSublink</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="MechFormfeeder"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+            <researchPrerequisite>Ferny_MechGestationProcessor</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Apparel_ArmorHelmetMechCommander"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+            <researchPrerequisite>Ferny_MechCommanderHelmet</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Apparel_IntegratorHeadset"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+            <researchPrerequisite>Ferny_IntegratorHeadset</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
         <success>Always</success>
         <xpath>Defs/ThingDef[defName="BandNode"]/researchPrerequisites</xpath>
         <value>
@@ -64,36 +152,122 @@
 
     <Operation Class="PatchOperationReplace">
         <success>Always</success>
-        <xpath>Defs/RecipeDef[defName="Constructoid"]/researchPrerequisite</xpath>
+        <xpath>Defs/ThingDef[defName="MechBooster"]/researchPrerequisites</xpath>
+        <value>
+            <researchPrerequisites>
+                <li>Ferny_MechBooster</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="Constructoid"]</xpath>
         <value>
             <researchPrerequisite>Ferny_Constructoid</researchPrerequisite>
         </value>
     </Operation>
 
-
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Apparel_PackControl"]/recipeMaker/researchPrerequisite</xpath>
         <value>
-            <researchPrerequisite>Ferny_AirwireHeadset</researchPrerequisite>
+            <researchPrerequisite>Ferny_ControlPack</researchPrerequisite>
         </value>
     </Operation>
 
-    <Operation Class="PatchOperationReplace">
+    <Operation Class="PatchOperationAdd">
         <success>Always</success>
-        <xpath>Defs/RecipeDef[defName="Lifter"]/researchPrerequisite</xpath>
+        <xpath>Defs/RecipeDef[defName="Lifter"]</xpath>
         <value>
             <researchPrerequisite>Ferny_Lifter</researchPrerequisite>
         </value>
     </Operation>
 
-    <Operation Class="PatchOperationReplace">
+    <Operation Class="PatchOperationAdd">
         <success>Always</success>
-        <xpath>Defs/RecipeDef[defName="Militor"]/researchPrerequisite</xpath>
+        <xpath>Defs/RecipeDef[defName="Militor"]</xpath>
         <value>
             <researchPrerequisite>Ferny_Militor</researchPrerequisite>
         </value>
     </Operation>
 
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="Cyclops"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Cyclops</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="MechFormfeeder"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_MechGestationProcessor</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="Pikeman"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Pikeman</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="Scorcher"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Scorcher</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="Tunneler"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Tunneler</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="CentipedeGunner"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Centipedes</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="CentipedeBurner"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Centipedes</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="Diabolus"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Diabolus</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="Fabricor"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Fabricor</researchPrerequisite>
+        </value>
+    </Operation>
+
+
+
+
+
+<!-- Other shit -->
     <Operation Class="PatchOperationAddModExtension">
         <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]</xpath>
         <value>
@@ -104,7 +278,9 @@
         </value>
     </Operation>
 
+
     <Operation Class="PatchOperationRemove">
         <xpath>Defs/MapGeneratorDef[defName="Base_Player"]/genSteps/li[text()="AncientExostriderRemains"]</xpath>
     </Operation>
+
 </Patch>
