@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ResearchProjectDef>
+		<defName>Ferny_Cleansweeper</defName>
+		<label>Cleansweeper</label>
+		<description>Build a small mechanoid designed to clean the colony.</description>
+		<baseCost>500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+		<prerequisites>
+			<li>BasicMechtech</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
 		<defName>Ferny_Agrihand</defName>
 		<label>Agrihand</label>
 		<description>Build a small mechanoid designed to sow and harvest crops.</description>
@@ -51,7 +68,7 @@
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef>
+	<!-- <ResearchProjectDef>
 		<defName>Ferny_Constructoid</defName>
 		<label>Constructoid</label>
 		<description>Build a small mechanoid designed to construct buildings and repair structures.</description>
@@ -66,7 +83,7 @@
 		<requiredResearchFacilities>
 		<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
-	</ResearchProjectDef>
+	</ResearchProjectDef> -->
 
 	<ResearchProjectDef>
 		<defName>Ferny_ControlPack</defName>
@@ -85,7 +102,7 @@
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef>
+	<!-- <ResearchProjectDef>
 		<defName>Ferny_Lifter</defName>
 		<label>Lifter</label>
 		<description>Build a small mechanoid designed to lift and haul objects.</description>
@@ -100,7 +117,7 @@
 		<requiredResearchFacilities>
 		<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
-	</ResearchProjectDef>
+	</ResearchProjectDef> -->
 
 	<ResearchProjectDef>
 		<defName>Ferny_Militor</defName>
@@ -130,6 +147,23 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>BasicMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_ControlSublinkHigh</defName>
+		<label>Control sublink (high)</label>
+		<description>Manufacture a neural implant which gives a mechanitor an additional control group. Additionally, the sublink slightly increases the work speed of any mechanoids controlled by the mechanitor.\n\nThis high-tier implant can increase the control group count up to 6.\n\nIt can be self-installed without surgery.\n\nThis implant can be installed up to 3 times to increase its effect.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>Ferny_ControlSublink</li>
 		</prerequisites>
 		<requiredResearchFacilities>
 		<li>MultiAnalyzer</li>
@@ -191,7 +225,7 @@
 		<defName>Ferny_MechGestationProcessor</defName>
 		<label>Mech gestation processor</label>
 		<description>Produce an implant that can accelerate the speed at which a mechanitor can gestate mechanoids.</description>
-		<baseCost>1000</baseCost>
+		<baseCost>700</baseCost>
 		<techLevel>Spacer</techLevel>
 		<researchViewX>4.50</researchViewX>
 		<researchViewY>1.00</researchViewY>
@@ -334,7 +368,6 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>Ferny_ArrayHeadset</li>
-			<li>HighMechtech</li>
 		</prerequisites>
 		<requiredResearchFacilities>
 		<li>MultiAnalyzer</li>
@@ -375,11 +408,46 @@
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
 
+
+	<ResearchProjectDef>
+		<defName>Ferny_RemoteRepairer</defName>
+		<label>Remote repairer</label>
+		<description>Manufacture a mechlink upgrade which allows the mechanitor to repair mechs from a distance. The user links with the mechanoid and uses their own brain to psychically guide its self-repair mechanites.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Ultra</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>HighMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_RemoteShielder</defName>
+		<label>Remote shielder</label>
+		<description>Manufacture an implant which allows the mechanitor to place a personal defense shield on a mech. The mechanitor must continuously focus on the mech in order to maintain the shield.\n\nPlacing a shield at a distance requires a substantial amount of focused energy. It can be used to save a mech at a critical moment.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Ultra</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>HighMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
 	<ResearchProjectDef>
 		<defName>Ferny_MechlordSuit</defName>
 		<label>Mechlord suit</label>
 		<description>Manufacture a power-assisted armor suit packed with mechanitor-assistance gear. The mechlord suit dramatically amplifies a mechanitor's bandwidth, but is somewhat less protective than dedicated heavy armor.</description>
-		<baseCost>1500</baseCost>
+		<baseCost>3000</baseCost>
 		<techLevel>Ultra</techLevel>
 		<researchViewX>4.50</researchViewX>
 		<researchViewY>1.00</researchViewY>
@@ -396,13 +464,82 @@
 		<defName>Ferny_RepairProbe</defName>
 		<label>Repair probe</label>
 		<description>Manufacture a power-assisted armor suit packed with mechanitor-assistance gear. The mechlord suit dramatically amplifies a mechanitor's bandwidth, but is somewhat less protective than dedicated heavy armor.</description>
-		<baseCost>1500</baseCost>
+		<baseCost>3000</baseCost>
 		<techLevel>Ultra</techLevel>
 		<researchViewX>4.50</researchViewX>
 		<researchViewY>1.00</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>UltraMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_WarQueen</defName>
+		<label>War queen</label>
+		<description>Build an ultra-heavy mech with a built-in mech gestator. Fed with appropriate resources, the war queen can form small war urchin combat mechs within its massive carapace and deploy them into combat.\n\nEven more than other mechanoids, the war queen resembles a giant, living insect. All war mechs can be terrifying, but humans tend to find the war queen disturbing on a deeper level.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>UltraMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Legionary</defName>
+		<label>Legionary</label>
+		<description>Build a combat support mechanoid with a wide-range bullet shield and mid-range needle gun. Designed to support other mechanoids, the legionary is vulnerable to anyone who can get inside its shield.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>UltraMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+	
+	<ResearchProjectDef>
+		<defName>Ferny_Tesseron</defName>
+		<label>Tesseron</label>
+		<description>Build a smaller combat construct that carries an experimental miniaturized version of the lightning gun seen in bigger constructs.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>UltraMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_CentipedeBlaster</defName>
+		<label>Centipede blaster</label>
+		<description>Build a heavy combat mechanoid that glides on dozens of tiny legs. Their thick carapace and firepower makes them very effective against bunched-up static defenders. They are somewhat vulnerable to mobile hit-and-run tactics.</description>
+		<baseCost>3000</baseCost>
+		<techLevel>Ultra</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>UltraMechtech</li>
+			<li>Ferny_Centipedes</li>
 		</prerequisites>
 		<requiredResearchFacilities>
 		<li>MultiAnalyzer</li>

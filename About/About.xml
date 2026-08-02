@@ -16,6 +16,10 @@
 		<li>Ludeon.Rimworld.Odyssey</li>
 		<li>vanillaquestsexpanded.dronefactory</li>
 		<li>sarg.alphamechs</li>
+		<li>gondragon.mechanoidwaiter</li>
+		<li>sov.det.surrogatemech</li>
+		<li>el.invmech</li>
+		<li>bart.em</li>
 	</loadAfter>
 	<!-- <modDependencies>
 		<li>

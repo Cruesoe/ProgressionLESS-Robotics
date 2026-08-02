@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Surrogate</defName>
+		<label>Surrogate</label>
+		<description>Build a human-sized mechanoid designed to take care of babies. Their upper body is covered in warm heating apparatuses to comfort newborns, and its chest simulates a human heartbeat. The Surrogate can feed children with baby food, play with them and fight fires. It can attack with a small slugthrower in case of an emergency.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>StandardMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+</Defs>

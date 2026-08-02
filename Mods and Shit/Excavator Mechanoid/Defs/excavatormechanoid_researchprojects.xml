@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Excavator</defName>
+		<label>Excavator</label>
+		<description>Build a rugged mechanoid designed to operate deep drills. Its hardware enables it to intelligently probe underneath the surface as well as maintain the resource extraction rig. While well protected, it lacks the sheer durability and power of a tunneler.</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>StandardMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+</Defs>

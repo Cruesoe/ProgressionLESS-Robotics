@@ -69,7 +69,7 @@
     <success>Always</success>
     <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]/label</xpath>
     <value>
-        <label>Large mechanoids</label>
+        <label>Large mech gestator</label>
     </value>
 </Operation>
 <Operation Class="PatchOperationReplace">
@@ -77,6 +77,22 @@
     <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]/baseCost</xpath>
     <value>
         <baseCost>5000</baseCost>
+    </value>
+</Operation>
+
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="HighMechtech"]/label</xpath>
+    <value>
+        <label>Subcore ripscanner</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]/baseCost</xpath>
+    <value>
+        <baseCost>8000</baseCost>
     </value>
 </Operation>
 
@@ -120,11 +136,35 @@
     </Operation>
 
     <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="ControlSublinkHigh"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+            <researchPrerequisite>Ferny_ControlSublinkHigh</researchPrerequisite>
+        </value>
+    </Operation>
+
+    
+
+    <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="MechFormfeeder"]/recipeMaker/researchPrerequisite</xpath>
         <value>
             <researchPrerequisite>Ferny_MechGestationProcessor</researchPrerequisite>
         </value>
     </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RemoteRepairer"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+            <researchPrerequisite>Ferny_RemoteRepairer</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RemoteShielder"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+            <researchPrerequisite>Ferny_RemoteShielder</researchPrerequisite>
+        </value>
+    </Operation>
+
 
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Apparel_ArmorHelmetMechCommander"]/recipeMaker/researchPrerequisite</xpath>
@@ -137,6 +177,27 @@
         <xpath>Defs/ThingDef[defName="Apparel_IntegratorHeadset"]/recipeMaker/researchPrerequisite</xpath>
         <value>
             <researchPrerequisite>Ferny_IntegratorHeadset</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Apparel_ArmorHelmetMechlordHelmet"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+            <researchPrerequisite>Ferny_MechlordSuit</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="Apparel_MechlordSuit"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+            <researchPrerequisite>Ferny_MechlordSuit</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="RepairProbe"]/recipeMaker/researchPrerequisite</xpath>
+        <value>
+            <researchPrerequisite>Ferny_RepairProbe</researchPrerequisite>
         </value>
     </Operation>
 
@@ -162,11 +223,29 @@
 
     <Operation Class="PatchOperationAdd">
         <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="Cleansweeper"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Cleansweeper</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="Paramedic"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Paramedic</researchPrerequisite>
+        </value>
+    </Operation>
+
+
+
+    <!-- <Operation Class="PatchOperationAdd">
+        <success>Always</success>
         <xpath>Defs/RecipeDef[defName="Constructoid"]</xpath>
         <value>
             <researchPrerequisite>Ferny_Constructoid</researchPrerequisite>
         </value>
-    </Operation>
+    </Operation> -->
 
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Apparel_PackControl"]/recipeMaker/researchPrerequisite</xpath>
@@ -175,13 +254,13 @@
         </value>
     </Operation>
 
-    <Operation Class="PatchOperationAdd">
+    <!-- <Operation Class="PatchOperationAdd">
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="Lifter"]</xpath>
         <value>
             <researchPrerequisite>Ferny_Lifter</researchPrerequisite>
         </value>
-    </Operation>
+    </Operation> -->
 
     <Operation Class="PatchOperationAdd">
         <success>Always</success>
@@ -263,7 +342,37 @@
         </value>
     </Operation>
 
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="Warqueen"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_WarQueen</researchPrerequisite>
+        </value>
+    </Operation>
 
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="Legionary"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Legionary</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="Tesseron"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Tesseron</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="CentipedeBlaster"]</xpath>
+        <value>
+            <researchPrerequisite>Ferny_CentipedeBlaster</researchPrerequisite>
+        </value>
+    </Operation>
 
 
 
@@ -282,5 +391,31 @@
     <Operation Class="PatchOperationRemove">
         <xpath>Defs/MapGeneratorDef[defName="Base_Player"]/genSteps/li[text()="AncientExostriderRemains"]</xpath>
     </Operation>
+
+<!-- Scenario -->
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ScenarioDef[defName="Mechanitor"]/scenario</xpath>
+        <value>
+        <playerFaction>
+        <factionDef>Ferny_ProgRoboticsSpacers</factionDef>
+        </playerFaction>
+        </value>
+    </Operation>
+
+
+<!-- Drone factory -->
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Vanilla Quests Expanded - Drone Factory</li>
+	</mods>
+	<match Class="PatchOperationAdd">
+		<xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]/prerequisites</xpath>
+		<value>
+            <li>VQE_Dronetech</li>
+		</value>
+	</match>
+</Operation>
+
 
 </Patch>
