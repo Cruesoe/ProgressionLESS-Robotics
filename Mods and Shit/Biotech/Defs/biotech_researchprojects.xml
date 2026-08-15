@@ -463,7 +463,7 @@
 	<ResearchProjectDef>
 		<defName>Ferny_RepairProbe</defName>
 		<label>Repair probe</label>
-		<description>Manufacture a power-assisted armor suit packed with mechanitor-assistance gear. The mechlord suit dramatically amplifies a mechanitor's bandwidth, but is somewhat less protective than dedicated heavy armor.</description>
+		<description>Manufacture an implant which increases the speed at which a mechanitor can repair mechanoids.</description>
 		<baseCost>3000</baseCost>
 		<techLevel>Ultra</techLevel>
 		<researchViewX>4.50</researchViewX>
