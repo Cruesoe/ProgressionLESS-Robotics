@@ -8,6 +8,7 @@
     <li IfModActive="ludeon.rimworld.biotech">Mods and Shit/Biotech</li>
     <li IfModActive="vanillaquestsexpanded.dronefactory">Mods and Shit/VQE Drone Factory</li>
     <li IfModActive="sarg.alphamechs">Mods and Shit/Alpha Mechs</li>
+    <li IfModActive="Mortis.ApexMechanoids">Mods and Shit/Apex Mechanoids</li>
     <li IfModActive="gondragon.mechanoidwaiter">Mods and Shit/Mechanoid Waiter</li>
     <li IfModActive="sov.det.surrogatemech">Mods and Shit/Surrogate Mechanoid</li>
     <li IfModActive="el.invmech">Mods and Shit/Mechanoid Invaders</li>

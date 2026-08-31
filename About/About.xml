@@ -20,6 +20,7 @@
 		<li>sov.det.surrogatemech</li>
 		<li>el.invmech</li>
 		<li>bart.em</li>
+		<li>mortis.apexmechanoids</li>
 	</loadAfter>
 	<!-- <modDependencies>
 		<li>

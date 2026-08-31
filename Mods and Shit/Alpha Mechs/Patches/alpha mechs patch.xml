@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>   
 
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="AM_InfernusMechlinkBooster"]/label</xpath>
+    <value>
+        <label>infernus invoker</label>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="AM_WarEmpressMechlinkBooster"]/label</xpath>
+    <value>
+        <label>war empress invoker</label>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef[defName="AM_ApoptosisMechlinkBooster"]/label</xpath>
+    <value>
+        <label>apoptosis invoker</label>
+    </value>
+</Operation>
+
 <!-- repurposing -->
 
 <!-- Light alpha mechs -> Daggersnout -->

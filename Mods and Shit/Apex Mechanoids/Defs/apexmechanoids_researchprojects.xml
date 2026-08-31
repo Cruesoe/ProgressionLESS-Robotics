@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>Ferny_BlasterConqueror</defName>
+		<label>Blaster conqueror</label>
+		<description>Build a conqueror mechanoid armed with a powerful charge blaster. Conquerors link their systems with nearby allied conquerors, improving their effectiveness in groups.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>AdvancedMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_CarabineConqueror</defName>
+		<label>Carabine conqueror</label>
+		<description>Build a conqueror mechanoid armed with a highly powered charge carbine. Conquerors link their systems with nearby allied conquerors, improving their effectiveness in groups.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>AdvancedMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Frostivus</defName>
+		<label>Frostivus</label>
+		<description>Build a mobile cryogenic chamber mechanoid that stores, freezes, and dispenses organic material. It can also seal a targeted pawn inside itself for later use.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>AdvancedMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_GazerEmplacement</defName>
+		<label>Gazer emplacement</label>
+		<description>Build a reinforced fixed laser emplacement around a salvaged gazer ocular emitter. When manually aimed within its frontal firing arc, it releases a devastating sun ray beam at extreme power cost.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>AdvancedMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Haze</defName>
+		<label>Haze</label>
+		<description>Build a toxic area-denial mechanoid that can pump tox gas into the area around it. Its melee attacks inflict toxic buildup on targets.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>AdvancedMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Lasher</defName>
+		<label>Lasher</label>
+		<description>Build a plasma-whip mechanoid designed to handle, tame, and train animals. Its whip also functions in short-range combat, damaging and electrifying nearby targets.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>AdvancedMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Pulse</defName>
+		<label>Pulse</label>
+		<description>Build an urban warfare mechanoid designed to breach structures and blind nearby enemies with intense impulse discharges. An installed jump pack lets it quickly move to its next target.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>AdvancedMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Tinker</defName>
+		<label>Tinker</label>
+		<description>Build a support mechanoid that repairs same-faction buildings and mechanoids. It cannot construct new structures, but can shield allies and blind enemies with a targeted laser.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>AdvancedMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Vassal</defName>
+		<label>Vassal</label>
+		<description>Build a coordination mechanoid that boosts nearby allies and extends mechanitor command range. Player-controlled vassals can also interface with local comms systems to improve allied morale.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>AdvancedMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_SpitterConqueror</defName>
+		<label>Spitter conqueror</label>
+		<description>Build a conqueror mechanoid armed with a powerful charge spitter. Conquerors link their systems with nearby allied conquerors, improving their effectiveness in groups.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>AdvancedMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_PurifierStation</defName>
+		<label>Purifier station</label>
+		<description>Build a pollution reclaimer that cleans pollution from a large area and vaporizes toxic wastepacks. Its drastic operation can cause severe ecological side effects.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>AdvancedMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_MechGestatorAmplifier</defName>
+		<label>Mech gestator amplifier</label>
+		<description>Build a facility that increases the gestation speed of adjacent mech gestators.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>AdvancedMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_MechRepairStation</defName>
+		<label>Mech repair station</label>
+		<description>Build a powered station that repairs small and medium mechanoids. The mechanoid enters the station to undergo repairs.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>AdvancedMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_MechanoidStasisChamber</defName>
+		<label>Mechanoid stasis chamber</label>
+		<description>Build a specialized stasis chamber that stores mechanoids in suspended animation. Stored mechs consume no power and do not occupy mechanitor bandwidth.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>AdvancedMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_PlasmaWhip</defName>
+		<label>Plasma whip</label>
+		<description>Manufacture a plasma whip inspired by the Lasher mechanoid's weapon. It can damage and stun multiple targets at once, making it useful for holding back enemies at close range.</description>
+		<baseCost>2000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>Ferny_Lasher</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_AdvancedMechRepairStation</defName>
+		<label>Advanced mech repair station</label>
+		<description>Build a powered station that repairs large mechanoids. The mechanoid enters the station to undergo repairs.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>ApexMechtech</li>
+			<li>Ferny_MechRepairStation</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Aegis</defName>
+		<label>Aegis</label>
+		<description>Build a mighty defensive mechanoid that sacrifices offensive capability for mastery of protection through its dual shields.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>ApexMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Celerus</defName>
+		<label>Celerus</label>
+		<description>Build a swift archotech commander mechanoid that can blink across short distances and create smokescreens that hide it from enemy perception.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>ApexMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Dominus</defName>
+		<label>Dominus</label>
+		<description>Build an archotech commander mechanoid that empowers nearby allies and challenges perceived threats in psychic duels.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>ApexMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_DominionPsyspear</defName>
+		<label>Dominion psy-spear</label>
+		<description>Manufacture a dominion psy-spear, a psionic weapon derived from Dominus control matrices.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>Ferny_Dominus</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Dynamo</defName>
+		<label>Dynamo</label>
+		<description>Build a mechanoid powered by an oversized internal reactor. It can anchor itself to a power grid and act as a mobile shield generator.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>ApexMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Gazer</defName>
+		<label>Gazer</label>
+		<description>Build a heavy ocular-beam mechanoid that locks itself in place to fire a devastating sun ray and can discharge shockwaves at close range.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>ApexMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Ingestor</defName>
+		<label>Ingestor</label>
+		<description>Build a battlefield scavenger mechanoid that finishes off survivors and refines organic material, including corpses, into chemfuel within its chassis.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>ApexMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Javelin</defName>
+		<label>Javelin</label>
+		<description>Build a mobile missile-launcher mechanoid with switchable warheads, including armor-piercing, incendiary, high-explosive, and EMP rockets.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>ApexMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Mantis</defName>
+		<label>Mantis</label>
+		<description>Build a blade-armed assault mechanoid that lunges into close combat and executes brutal slashing attacks.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>ApexMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Maul</defName>
+		<label>Maul</label>
+		<description>Build a heavily armored mechanoid designed to crush infantry, light vehicles, and outer defenses while overclocking its weapon under fire.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>ApexMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Ravager</defName>
+		<label>Ravager</label>
+		<description>Build a heavy artillery mechanoid that can overcharge its weapon to launch devastating starfall barrages.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>ApexMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Terminus</defName>
+		<label>Terminus</label>
+		<description>Build an archotech commander mechanoid that cleaves through groups, overdrives its combat systems, and drags distant enemies into reach with a grappling hook.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>ApexMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_SeveringBlade</defName>
+		<label>Severing blade</label>
+		<description>Manufacture a heavy combat blade integrated with Terminus-derived control matrices, allowing the wielder to channel sweeping psychic strikes.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>Ferny_Terminus</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Solus</defName>
+		<label>Solus</label>
+		<description>Manufacture a reinforced gamma-ray emitter that produces a dense, destructive energy ball which discharges into nearby targets and ignites its surroundings.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>ApexMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Siren</defName>
+		<label>Siren</label>
+		<description>Build a psychic mechanoid that lures colonists toward itself. When controlled by a mechanitor, it can provide a mood and recreation boost to nearby allies.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>ApexMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_Skipblade</defName>
+		<label>Skipblade</label>
+		<description>Manufacture a skipblade, a compact psyflux weapon derived from Celerus displacement technology.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>Ferny_Celerus</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_MechmancerSuit</defName>
+		<label>Mechmancer suit</label>
+		<description>Manufacture a mechmancer suit and matching helmet, power-assisted mechanitor armor that greatly expands bandwidth while providing serious protection.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>ApexMechtech</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_MechmancerPack</defName>
+		<label>Mechmancer pack</label>
+		<description>Manufacture a mechmancer pack, an advanced bandwidth-expansion utility pack that can deploy independent satellite mechanoids.</description>
+		<baseCost>4000</baseCost>
+		<techLevel>Spacer</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
+		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+		<prerequisites>
+			<li>Ferny_MechmancerSuit</li>
+		</prerequisites>
+		<requiredResearchFacilities>
+		<li>MultiAnalyzer</li>
+		</requiredResearchFacilities>
+	</ResearchProjectDef>
+
+</Defs>
