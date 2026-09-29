@@ -38,8 +38,8 @@
 		<description>Manufacture headsets, packs and implants that extend a mechanitor's bandwidth, control groups and gestation speed.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
+		<researchViewX>12.00</researchViewX>
+		<researchViewY>9.30</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>BasicMechtech</li>
@@ -54,8 +54,8 @@
 		<description>Manufacture array headsets, band nodes and high control sublinks.</description>
 		<baseCost>1500</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
+		<researchViewX>13.00</researchViewX>
+		<researchViewY>9.30</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
@@ -70,8 +70,8 @@
 		<description>Manufacture integrator headsets and mechcommander helmets.</description>
 		<baseCost>1500</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
+		<researchViewX>14.00</researchViewX>
+		<researchViewY>9.30</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
@@ -86,8 +86,8 @@
 		<description>Build a remote energy and computation enhancement device. Any friendly mechanoids in its effect radius will move and work faster.</description>
 		<baseCost>1500</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
+		<researchViewX>16.00</researchViewX>
+		<researchViewY>9.30</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>HighMechtech</li>
@@ -102,8 +102,8 @@
 		<description>Manufacture mechlink upgrades that let a mechanitor repair and shield mechs from a distance.</description>
 		<baseCost>1500</baseCost>
 		<techLevel>Ultra</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
+		<researchViewX>16.00</researchViewX>
+		<researchViewY>10.00</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>HighMechtech</li>
@@ -118,8 +118,8 @@
 		<description>Manufacture the mechlord suit and repair probe.</description>
 		<baseCost>3000</baseCost>
 		<techLevel>Ultra</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
+		<researchViewX>18.00</researchViewX>
+		<researchViewY>10.00</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>UltraMechtech</li>
@@ -134,8 +134,8 @@
 		<description>Build an ultra-heavy mech with a built-in mech gestator. Fed with appropriate resources, the war queen can form small war urchin combat mechs within its massive carapace and deploy them into combat.\n\nEven more than other mechanoids, the war queen resembles a giant, living insect. All war mechs can be terrifying, but humans tend to find the war queen disturbing on a deeper level.</description>
 		<baseCost>3000</baseCost>
 		<techLevel>Ultra</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
+		<researchViewX>19.00</researchViewX>
+		<researchViewY>7.90</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>UltraMechtech</li>
@@ -150,8 +150,8 @@
 		<description>Gestate ultra-tier combat mechanoids such as the legionary and tesseron.</description>
 		<baseCost>3000</baseCost>
 		<techLevel>Ultra</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
+		<researchViewX>18.00</researchViewX>
+		<researchViewY>7.90</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>UltraMechtech</li>

@@ -6,8 +6,8 @@
 		<description>Assemble battle and turret drones.</description>
 		<baseCost>900</baseCost>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>2.90</researchViewY>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>6.60</researchViewY>
 		<tab>VanillaExpanded</tab>
 		<prerequisites>
 			<li>VQE_Dronetech</li>
@@ -32,8 +32,8 @@
 		<description>Assemble hauler, miner and broadcaster drones.</description>
 		<baseCost>900</baseCost>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>2.90</researchViewY>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>5.90</researchViewY>
 		<tab>VanillaExpanded</tab>
 		<prerequisites>
 			<li>VQE_Dronetech</li>

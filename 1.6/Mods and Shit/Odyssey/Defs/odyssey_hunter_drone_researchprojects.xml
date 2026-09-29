@@ -8,8 +8,8 @@
         <baseCost>300</baseCost>
         <techLevel>Industrial</techLevel>
         <prerequisites><li>HunterDrones</li></prerequisites>
-        <researchViewX>13.60</researchViewX>
-        <researchViewY>1.20</researchViewY>
+        <researchViewX>13.00</researchViewX>
+        <researchViewY>-0.70</researchViewY>
     </ResearchProjectDef>
 
 </Defs>

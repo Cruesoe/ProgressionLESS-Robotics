@@ -6,8 +6,8 @@
 		<description>Gestate small mechanoids built for farming, cleaning and cooking.</description>
 		<baseCost>500</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
+		<researchViewX>12.00</researchViewX>
+		<researchViewY>7.20</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
@@ -22,8 +22,8 @@
 		<description>Gestate specialist light combat mechanoids built on the militor pattern.</description>
 		<baseCost>800</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
+		<researchViewX>13.00</researchViewX>
+		<researchViewY>7.90</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
@@ -38,8 +38,8 @@
 		<description>Gestate heavy and ultra-heavy combat mechanoids.</description>
 		<baseCost>1500</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
+		<researchViewX>16.00</researchViewX>
+		<researchViewY>7.90</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
@@ -54,8 +54,8 @@
 		<description>Gestate medium combat mechanoids that fight up close.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
+		<researchViewX>15.00</researchViewX>
+		<researchViewY>7.90</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
@@ -70,8 +70,8 @@
 		<description>Gestate mechanoids built for mining, drilling and hauling.</description>
 		<baseCost>1500</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
+		<researchViewX>14.00</researchViewX>
+		<researchViewY>7.20</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
@@ -86,8 +86,8 @@
 		<description>Gestate advanced worker mechanoids for crafting and medical care.</description>
 		<baseCost>1500</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
+		<researchViewX>16.00</researchViewX>
+		<researchViewY>7.20</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
@@ -102,8 +102,8 @@
 		<description>Gestate specialist light worker mechanoids for hunting and fast cleaning.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
+		<researchViewX>13.00</researchViewX>
+		<researchViewY>7.20</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
@@ -119,8 +119,8 @@
 		<description>Gestate small combat mechanoids such as the militor.</description>
 		<baseCost>500</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
+		<researchViewX>12.00</researchViewX>
+		<researchViewY>7.90</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
@@ -135,8 +135,8 @@
 		<description>Gestate medium combat mechanoids that fight from range.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
+		<researchViewX>15.00</researchViewX>
+		<researchViewY>8.60</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
@@ -151,8 +151,8 @@
 		<description>Gestate mechanoids that care for children, serve customers and tend to the colony's daily needs.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
+		<researchViewX>15.00</researchViewX>
+		<researchViewY>7.20</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
