@@ -11,7 +11,7 @@
             <li>Firefoam</li>
             <li>HunterDrones</li>
         </prerequisites>
-        <researchViewX>14.00</researchViewX>
-        <researchViewY>-1.40</researchViewY>
+        <researchViewX>16.00</researchViewX>
+        <researchViewY>1.40</researchViewY>
     </ResearchProjectDef>
 </Defs>

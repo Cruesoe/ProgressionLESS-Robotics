@@ -6,8 +6,8 @@
 		<description>Build traps that release hunter drones and wasp drones when enemies come near.</description>
 		<baseCost>600</baseCost>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>14.00</researchViewX>
-		<researchViewY>-0.70</researchViewY>
+		<researchViewX>16.00</researchViewX>
+		<researchViewY>0.70</researchViewY>
 		<prerequisites>
 			<li>HunterDrones</li>
 		</prerequisites>
@@ -18,8 +18,8 @@
 		<description>Manufacture hunter packs armed with EMP, incendiary, smoke, toxic and antigrain warheads.</description>
 		<baseCost>600</baseCost>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>15.00</researchViewX>
-		<researchViewY>-0.70</researchViewY>
+		<researchViewX>17.00</researchViewX>
+		<researchViewY>2.70</researchViewY>
 		<prerequisites>
 			<li>Ferny_HunterAntigrainTrap</li>
 			<li>Ferny_HunterPack</li>
