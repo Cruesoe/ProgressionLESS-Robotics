@@ -87,7 +87,7 @@
     <xpath>Defs/RecipeDef[defName="VQE_AssembleMinerDrone"]/researchPrerequisites</xpath>
     <value>
         <researchPrerequisites>
-            <li>Ferny_MinerDrone</li>
+            <li>Ferny_HaulerDrone</li>
         </researchPrerequisites>
     </value>
 </Operation>
@@ -97,7 +97,7 @@
     <xpath>Defs/RecipeDef[defName="VQE_AssembleAutobroadcasterDrone"]/researchPrerequisites</xpath>
     <value>
         <researchPrerequisites>
-            <li>Ferny_BroadcasterDrone</li>
+            <li>Ferny_HaulerDrone</li>
         </researchPrerequisites>
     </value>
 </Operation>
@@ -107,7 +107,7 @@
     <xpath>Defs/RecipeDef[defName="VQE_AssembleTurretDrone"]/researchPrerequisites</xpath>
     <value>
         <researchPrerequisites>
-            <li>Ferny_TurretDrone</li>
+            <li>Ferny_BattleDrone</li>
         </researchPrerequisites>
     </value>
 </Operation>
@@ -118,25 +118,13 @@
     <mods>
         <li>Odyssey</li>
     </mods>
-    <match Class="PatchOperationSequence">
-        <operations>
-            <li Class="PatchOperationReplace">
-                <xpath>Defs/ResearchProjectDef[defName="Ferny_BattleDrone"]/prerequisites</xpath>
-                <value>
-                    <prerequisites>
-                        <li>HunterDrones</li>
-                    </prerequisites>
-                </value>
-            </li>
-            <li Class="PatchOperationReplace">
-                <xpath>Defs/ResearchProjectDef[defName="Ferny_TurretDrone"]/prerequisites</xpath>
-                <value>
-                    <prerequisites>
-                        <li>HunterDrones</li>
-                    </prerequisites>
-                </value>
-            </li>
-        </operations>
+    <match Class="PatchOperationReplace">
+        <xpath>Defs/ResearchProjectDef[defName="Ferny_BattleDrone"]/prerequisites</xpath>
+        <value>
+            <prerequisites>
+                <li>HunterDrones</li>
+            </prerequisites>
+        </value>
     </match>
 </Operation>
 

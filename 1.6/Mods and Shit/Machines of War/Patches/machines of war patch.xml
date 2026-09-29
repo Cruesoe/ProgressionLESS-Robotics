@@ -11,21 +11,21 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="Demolisher"]/researchPrerequisite</xpath>
 		<value>
-			<researchPrerequisite>Ferny_DemolisherMOW</researchPrerequisite>
+			<researchPrerequisite>Ferny_Cicada</researchPrerequisite>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="Enforcer"]/researchPrerequisite</xpath>
 		<value>
-			<researchPrerequisite>Ferny_Enforcer</researchPrerequisite>
+			<researchPrerequisite>Ferny_Cicada</researchPrerequisite>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="EnforcerBreacher"]/researchPrerequisite</xpath>
 		<value>
-			<researchPrerequisite>Ferny_Enforcer</researchPrerequisite>
+			<researchPrerequisite>Ferny_Cicada</researchPrerequisite>
 		</value>
 	</Operation>
 

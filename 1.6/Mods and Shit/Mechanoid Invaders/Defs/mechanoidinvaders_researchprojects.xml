@@ -1,65 +1,11 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-<!-- Standard mechtech -->
-
-	<ResearchProjectDef>
-		<defName>Ferny_Skirmisher</defName>
-		<label>Skirmisher</label>
-		<description>Build an agile combat mechanoid with a bizarre frame resembling a floating human torso. Relying on a built-in hoverjet instead of legs for locomotion, the skirmisher levitates above ground, safe from traps and unhindered by terrain difficulties. When in danger, it can quickly reposition to a safe distance with a burst from its jets.</description>
-		<baseCost>1000</baseCost>
-		<techLevel>Spacer</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<prerequisites>
-			<li>StandardMechtech</li>
-		</prerequisites>
-		<requiredResearchFacilities>
-		<li>MultiAnalyzer</li>
-		</requiredResearchFacilities>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef>
-		<defName>Ferny_Ripper</defName>
-		<label>Ripper</label>
-		<description>Build a fast, insectile combat mechanoid designed to wreak havoc in close quarters. The ripper's bladed forelegs hide injector needles, dosing its target with mechanite-derived toxin with every slash. The toxin, beyond slowly dissolving the victim, uses their body as a mech gestator - creating mechanoid reinforcements on-site at the expense of its unfortunate foes.</description>
-		<baseCost>1000</baseCost>
-		<techLevel>Spacer</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<prerequisites>
-			<li>StandardMechtech</li>
-		</prerequisites>
-		<requiredResearchFacilities>
-		<li>MultiAnalyzer</li>
-		</requiredResearchFacilities>
-	</ResearchProjectDef>
-
-<!-- High mechtech -->
-
-	<ResearchProjectDef>
-		<defName>Ferny_Aide</defName>
-		<label>Aide</label>
-		<description>Build a small combat support mechanoid armed with a mini-blaster sidearm. Fragile and diminutive, aides are unsuited for the frontline, designed to instead support more capable combat units from the back. Their pattern's sophisticated subcore allows them to merge systems with another mechanoid, enhancing their processing power, and increasing their resilience by acting as a backup for critical subsystems. However, should the merge end prematurely by aide's death, any unit it was connected to will suffer from severe system disruption, reducing their capacity to process data for a while.</description>
-		<baseCost>1500</baseCost>
-		<techLevel>Spacer</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<prerequisites>
-			<li>HighMechtech</li>
-		</prerequisites>
-		<requiredResearchFacilities>
-		<li>MultiAnalyzer</li>
-		</requiredResearchFacilities>
-	</ResearchProjectDef>
-
+	<!-- Standard mechtech -->
+	<!-- High mechtech -->
 	<ResearchProjectDef>
 		<defName>Ferny_Berserker</defName>
-		<label>Berserker</label>
-		<description>Build a heavy combat mechanoid specialised in close-quarters engagements. The berserker's imposing frame is designed to draw enemy fire on approach, with every received hit enhancing its speed and strength of its stunning blows. The Rage Drive's improvements do not come without risk - at high intensity levels, it can overload critical subsystems, causing berserk-inducing malfunctions.</description>
+		<label>Invader mechs</label>
+		<description>Gestate berserker, bombardier, constrictor, infiltrator and templar mechanoids.</description>
 		<baseCost>1500</baseCost>
 		<techLevel>Spacer</techLevel>
 		<researchViewX>4.50</researchViewX>
@@ -69,78 +15,9 @@
 			<li>HighMechtech</li>
 		</prerequisites>
 		<requiredResearchFacilities>
-		<li>MultiAnalyzer</li>
+			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
-
-	<ResearchProjectDef>
-		<defName>Ferny_Bombardier</defName>
-		<label>Bombardier</label>
-		<description>Build a clunky, ultra-heavy combat mechanoid designed as an artillery platform. Carrying a charge howitzer turret on its back, the bombardier acts as a siegebreaker, raining fire upon enemy emplacements on approach. Its cumbersome frame and unusually thin armor make it vulnerable in close-quarters combat.</description>
-		<baseCost>1500</baseCost>
-		<techLevel>Spacer</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<prerequisites>
-			<li>HighMechtech</li>
-		</prerequisites>
-		<requiredResearchFacilities>
-		<li>MultiAnalyzer</li>
-		</requiredResearchFacilities>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef>
-		<defName>Ferny_Constrictor</defName>
-		<label>Constrictor</label>
-		<description>Build a combat mechanoid vaguely resembling a cross between human and snake. The constrictor is designed to pick off priority targets on the field of battle, pulling them from behind cover with its grappling “tongue”, before crushing them with its powerful tail. Exceedingly effective against organics thanks to their hardware and toxic weaponry, constrictors are favoured by rogue mechives as a means of crushing human resistance.</description>
-		<baseCost>1500</baseCost>
-		<techLevel>Spacer</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<prerequisites>
-			<li>HighMechtech</li>
-		</prerequisites>
-		<requiredResearchFacilities>
-		<li>MultiAnalyzer</li>
-		</requiredResearchFacilities>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef>
-		<defName>Ferny_Infiltrator</defName>
-		<label>Infiltrator</label>
-		<description>Build a tall, spindly assassin mechanoid. The infiltrator's flexible carapace and telescopic limbs let it assume any stature it desires - and when covered in a biomimetic disguise, convincingly imitate human likeness. Employed by mechanitors and rogue swarms as covert operatives, infiltrators use their advanced optical cloaking to scout enemy positions, gather intel, and assassinate high-value targets using toxin-coated concealed weapons. Additionally, the disguise serves as a layer of ablative armor - under most circumstances, destroying it will not damage the mechanoid hidden within.\n\nEven when hiding behind a human facade, the infiltrator is still a mechanoid by nature - it remains vulnerable to EMP, and being an unfeeling machine, is unable to form relationships. When disguised, it will periodically relay data to its overseer, which can be intercepted by a savvy colony to find it out.</description>
-		<baseCost>1500</baseCost>
-		<techLevel>Spacer</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<prerequisites>
-			<li>HighMechtech</li>
-		</prerequisites>
-		<requiredResearchFacilities>
-		<li>MultiAnalyzer</li>
-		</requiredResearchFacilities>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef>
-		<defName>Ferny_Templar</defName>
-		<label>Templar</label>
-		<description>Build a heavy infantry mechanoid designed to excel in both close-quarters and ranged combat. The templar's Zeal Drive continuously improves its combat performance the longer it remains on the field of battle. Its heavy armor and armaments guarantee staying power during prolonged engagements.</description>
-		<baseCost>1500</baseCost>
-		<techLevel>Spacer</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<prerequisites>
-			<li>HighMechtech</li>
-		</prerequisites>
-		<requiredResearchFacilities>
-		<li>MultiAnalyzer</li>
-		</requiredResearchFacilities>
-	</ResearchProjectDef>
-
 	<ResearchProjectDef>
 		<defName>Ferny_SystemInterlink</defName>
 		<label>System interlink</label>
@@ -154,8 +31,7 @@
 			<li>HighMechtech</li>
 		</prerequisites>
 		<requiredResearchFacilities>
-		<li>MultiAnalyzer</li>
+			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
 	</ResearchProjectDef>
-
 </Defs>

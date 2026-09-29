@@ -1,24 +1,9 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	<ResearchProjectDef>
-		<defName>Ferny_BroadcasterDrone</defName>
-		<label>Broadcaster drone</label>
-		<description>Design and build a drone is equipped with a small megaphone. It is useful for boosting morale among colonists, or deploying propaganda against different ways of thinking or prisoners.</description>
-		<baseCost>900</baseCost>
-		<techLevel>Industrial</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>2.90</researchViewY>
-		<tab>VanillaExpanded</tab>
-		<prerequisites>
-			<li>VQE_Dronetech</li>
-		</prerequisites>
-	</ResearchProjectDef>
-
 	<ResearchProjectDef>
 		<defName>Ferny_BattleDrone</defName>
-		<label>Battle drone</label>
-		<description>Design and build a combat-oriented drone for military use. The drone is equipped with a small stubgun, making it a decent opponent on the battlefield.</description>
+		<label>Combat drones</label>
+		<description>Assemble battle and turret drones.</description>
 		<baseCost>900</baseCost>
 		<techLevel>Industrial</techLevel>
 		<researchViewX>4.50</researchViewX>
@@ -28,7 +13,6 @@
 			<li>VQE_Dronetech</li>
 		</prerequisites>
 	</ResearchProjectDef>
-
 	<!-- <ResearchProjectDef>
 		<defName>Ferny_CleanerDrone</defName>
 		<label>Cleaner drone</label>
@@ -42,11 +26,10 @@
 			<li>VQE_Dronetech</li>
 		</prerequisites>
 	</ResearchProjectDef> -->
-
 	<ResearchProjectDef>
 		<defName>Ferny_HaulerDrone</defName>
-		<label>Hauler drone</label>
-		<description>Design and build a treaded drone for hauling and transportation tasks. The drone is equipped with small prongs, making it proficient in moving items around.</description>
+		<label>Work drones</label>
+		<description>Assemble hauler, miner and broadcaster drones.</description>
 		<baseCost>900</baseCost>
 		<techLevel>Industrial</techLevel>
 		<researchViewX>4.50</researchViewX>
@@ -56,33 +39,4 @@
 			<li>VQE_Dronetech</li>
 		</prerequisites>
 	</ResearchProjectDef>
-
-	<ResearchProjectDef>
-		<defName>Ferny_MinerDrone</defName>
-		<label>Miner drone</label>
-		<description>Design and build a specialized drone for mining operations. The drone is equipped with a small drill, making it proficient in extracting resources.</description>
-		<baseCost>900</baseCost>
-		<techLevel>Industrial</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>2.90</researchViewY>
-		<tab>VanillaExpanded</tab>
-		<prerequisites>
-			<li>VQE_Dronetech</li>
-		</prerequisites>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef>
-		<defName>Ferny_TurretDrone</defName>
-		<label>Turret drone</label>
-		<description>Design and build a specialized drone for defensive operations. The drone is equipped with a small turret, designed to provide stationary fire support while being able to be moved if necessary.</description>
-		<baseCost>900</baseCost>
-		<techLevel>Industrial</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>2.90</researchViewY>
-		<tab>VanillaExpanded</tab>
-		<prerequisites>
-			<li>VQE_Dronetech</li>
-		</prerequisites>
-	</ResearchProjectDef>
-
 </Defs>

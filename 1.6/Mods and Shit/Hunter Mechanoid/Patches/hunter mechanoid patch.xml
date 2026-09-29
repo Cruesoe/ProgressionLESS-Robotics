@@ -16,12 +16,12 @@
 		<mods>
 			<li>Alpha Mechs</li>
 		</mods>
-		<match Class="PatchOperationReplace">
-			<xpath>Defs/ResearchProjectDef[defName="Ferny_Hunter"]/prerequisites</xpath>
+		<match Class="PatchOperationAdd">
+			<xpath>Defs/RecipeDef[defName="Hunter"]</xpath>
 			<value>
-				<prerequisites>
+				<researchPrerequisites>
 					<li>Ferny_Bellicor</li>
-				</prerequisites>
+				</researchPrerequisites>
 			</value>
 		</match>
 	</Operation>

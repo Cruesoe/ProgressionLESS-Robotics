@@ -83,14 +83,14 @@
 		<success>Always</success>
 		<xpath>Defs/RecipeDef[defName="APM_Conqueror_DMR"]</xpath>
 		<value>
-			<researchPrerequisite>Ferny_CarabineConqueror</researchPrerequisite>
+			<researchPrerequisite>Ferny_BlasterConqueror</researchPrerequisite>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="APM_Frostivus"]/researchPrerequisite</xpath>
 		<value>
-			<researchPrerequisite>Ferny_Frostivus</researchPrerequisite>
+			<researchPrerequisite>Ferny_Tinker</researchPrerequisite>
 		</value>
 	</Operation>
 
@@ -106,7 +106,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="APM_Haze"]/researchPrerequisite</xpath>
 		<value>
-			<researchPrerequisite>Ferny_Haze</researchPrerequisite>
+			<researchPrerequisite>Ferny_Lasher</researchPrerequisite>
 		</value>
 	</Operation>
 
@@ -120,7 +120,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="APM_Pulse"]/researchPrerequisite</xpath>
 		<value>
-			<researchPrerequisite>Ferny_Pulse</researchPrerequisite>
+			<researchPrerequisite>Ferny_Lasher</researchPrerequisite>
 		</value>
 	</Operation>
 
@@ -134,7 +134,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="APM_Vassal"]/researchPrerequisite</xpath>
 		<value>
-			<researchPrerequisite>Ferny_Vassal</researchPrerequisite>
+			<researchPrerequisite>Ferny_Tinker</researchPrerequisite>
 		</value>
 	</Operation>
 
@@ -142,7 +142,7 @@
 		<success>Always</success>
 		<xpath>Defs/RecipeDef[defName="APM_Conqueror_SMG"]</xpath>
 		<value>
-			<researchPrerequisite>Ferny_SpitterConqueror</researchPrerequisite>
+			<researchPrerequisite>Ferny_BlasterConqueror</researchPrerequisite>
 		</value>
 	</Operation>
 
@@ -150,7 +150,7 @@
 		<xpath>Defs/ThingDef[defName="APM_Building_ToxicPurifier"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_PurifierStation</li>
+				<li>Ferny_MechRepairStation</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -159,7 +159,7 @@
 		<xpath>Defs/ThingDef[defName="APM_GestatorAmplifier"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_MechGestatorAmplifier</li>
+				<li>Ferny_MechRepairStation</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -184,7 +184,7 @@
 		<xpath>Defs/ThingDef[defName="APM_MechanoidContainer_Player"]/researchPrerequisites</xpath>
 		<value>
 			<researchPrerequisites>
-				<li>Ferny_MechanoidStasisChamber</li>
+				<li>Ferny_MechRepairStation</li>
 			</researchPrerequisites>
 		</value>
 	</Operation>
@@ -208,14 +208,14 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="APM_Aegis"]/researchPrerequisite</xpath>
 		<value>
-			<researchPrerequisite>Ferny_Aegis</researchPrerequisite>
+			<researchPrerequisite>Ferny_Maul</researchPrerequisite>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="APM_Celerus"]/researchPrerequisite</xpath>
 		<value>
-			<researchPrerequisite>Ferny_Celerus</researchPrerequisite>
+			<researchPrerequisite>Ferny_Dominus</researchPrerequisite>
 		</value>
 	</Operation>
 
@@ -237,21 +237,21 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="APM_Dynamo"]/researchPrerequisite</xpath>
 		<value>
-			<researchPrerequisite>Ferny_Dynamo</researchPrerequisite>
+			<researchPrerequisite>Ferny_Maul</researchPrerequisite>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="APM_Gazer"]/researchPrerequisite</xpath>
 		<value>
-			<researchPrerequisite>Ferny_Gazer</researchPrerequisite>
+			<researchPrerequisite>Ferny_Ravager</researchPrerequisite>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="APM_Ingestor"]/researchPrerequisite</xpath>
 		<value>
-			<researchPrerequisite>Ferny_Ingestor</researchPrerequisite>
+			<researchPrerequisite>Ferny_Ravager</researchPrerequisite>
 		</value>
 	</Operation>
 
@@ -265,7 +265,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="APM_Mantis"]/researchPrerequisite</xpath>
 		<value>
-			<researchPrerequisite>Ferny_Mantis</researchPrerequisite>
+			<researchPrerequisite>Ferny_Maul</researchPrerequisite>
 		</value>
 	</Operation>
 
@@ -286,7 +286,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="APM_Terminus"]/researchPrerequisite</xpath>
 		<value>
-			<researchPrerequisite>Ferny_Terminus</researchPrerequisite>
+			<researchPrerequisite>Ferny_Dominus</researchPrerequisite>
 		</value>
 	</Operation>
 
@@ -294,7 +294,7 @@
 		<success>Always</success>
 		<xpath>Defs/RecipeDef[defName="APM_Weapon_SeveringBlade"]</xpath>
 		<value>
-			<researchPrerequisite>Ferny_SeveringBlade</researchPrerequisite>
+			<researchPrerequisite>Ferny_DominionPsyspear</researchPrerequisite>
 		</value>
 	</Operation>
 
@@ -309,7 +309,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="APM_Siren"]/researchPrerequisite</xpath>
 		<value>
-			<researchPrerequisite>Ferny_Siren</researchPrerequisite>
+			<researchPrerequisite>Ferny_Javelin</researchPrerequisite>
 		</value>
 	</Operation>
 
@@ -317,7 +317,7 @@
 		<success>Always</success>
 		<xpath>Defs/RecipeDef[defName="APM_Weapon_Skipblade"]</xpath>
 		<value>
-			<researchPrerequisite>Ferny_Skipblade</researchPrerequisite>
+			<researchPrerequisite>Ferny_DominionPsyspear</researchPrerequisite>
 		</value>
 	</Operation>
 
