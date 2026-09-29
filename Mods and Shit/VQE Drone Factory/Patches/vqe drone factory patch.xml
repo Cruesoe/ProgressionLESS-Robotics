@@ -113,4 +113,32 @@
 </Operation>
 
 
+<!-- Hunter drone gates the military drone branches when Odyssey is active. -->
+<Operation Class="PatchOperationFindMod">
+    <mods>
+        <li>Odyssey</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="Ferny_BattleDrone"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>HunterDrones</li>
+                    </prerequisites>
+                </value>
+            </li>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/ResearchProjectDef[defName="Ferny_TurretDrone"]/prerequisites</xpath>
+                <value>
+                    <prerequisites>
+                        <li>HunterDrones</li>
+                    </prerequisites>
+                </value>
+            </li>
+        </operations>
+    </match>
+</Operation>
+
+
 </Patch>
