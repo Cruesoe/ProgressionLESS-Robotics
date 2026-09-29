@@ -396,7 +396,7 @@
     <Operation Class="PatchOperationAddModExtension">
         <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]</xpath>
         <value>
-            <li Class="ProgressionRobotics2.QuestOnResearchExtension">
+            <li Class="ProgressionLESSRobotics.QuestOnResearchExtension">
                 <questDef>MechanitorShip</questDef>
                 <delayHours>2</delayHours>
             </li>

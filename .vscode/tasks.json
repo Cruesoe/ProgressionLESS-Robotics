@@ -13,7 +13,7 @@
             "command": "dotnet",
             "args": [
                 "build",
-                "${workspaceFolder}/1.6/Source/ProgressionRobotics2.csproj"
+                "${workspaceFolder}/Source/ProgressionLESSRobotics.csproj"
             ],
             "problemMatcher": "$msCompile",
             "group": {

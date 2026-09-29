@@ -1,7 +1,7 @@
 using RimWorld;
 using Verse;
 
-namespace ProgressionRobotics2
+namespace ProgressionLESSRobotics
 {
     public class QuestOnResearchExtension : DefModExtension
     {

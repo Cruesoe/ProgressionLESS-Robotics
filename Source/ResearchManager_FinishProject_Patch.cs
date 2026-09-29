@@ -2,7 +2,7 @@ using HarmonyLib;
 using RimWorld;
 using Verse;
 
-namespace ProgressionRobotics2
+namespace ProgressionLESSRobotics
 {
     [HarmonyPatch(typeof(ResearchManager), nameof(ResearchManager.FinishProject))]
     public static class ResearchManager_FinishProject_Patch

@@ -1,44 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Progression: Robotics</name>
-	<author>ferny</author>
-	<packageId>ferny.progressionrobotics2</packageId>
-	<supportedVersions>
-		<li>1.6</li>
-	</supportedVersions>
-	<description>Research overhaul for robots.</description>
-	<loadAfter>
-		<li>Ludeon.Rimworld</li>
-		<li>Ludeon.Rimworld.Royalty</li>
-		<li>Ludeon.Rimworld.Ideology</li>
-		<li>Ludeon.Rimworld.Biotech</li>
-		<li>Ludeon.Rimworld.Anomaly</li>
-		<li>Ludeon.Rimworld.Odyssey</li>
-		<li>as1aw.morehunterdrones</li>
-		<li>rabiosus.extinguisherdrone</li>
-		<li>vanillaquestsexpanded.dronefactory</li>
-		<li>sarg.alphamechs</li>
-		<li>el.mow</li>
-		<li>pal5k.huntermechanoid</li>
-		<li>pal5k.scramblermechanoid</li>
-		<li>pal5k.logisticsmechanoid</li>
-		<li>smxrez.sastarfireboss</li>
-		<li>gondragon.mechanoidwaiter</li>
-		<li>sov.det.surrogatemech</li>
-		<li>el.invmech</li>
-		<li>bart.em</li>
-		<li>mortis.apexmechanoids</li>
-	</loadAfter>
-	<!-- <modDependencies>
-		<li>
-			<packageId>ferny.nofactoryfloorrequirement</packageId>
-			<displayName>No Factory Floor Requirement</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3687039048</steamWorkshopUrl>
-		</li>
-		<li>
-			<packageId>vanillaexpanded.vfefactory</packageId>
-			<displayName>Vanilla Furniture Expanded - Factory</displayName>
-			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=3686924415</steamWorkshopUrl>
-		</li>
-	</modDependencies> -->
+  <name>ProgressionLESS: Robotics</name>
+  <author>Cruesoe</author>
+  <packageId>cruesoe.progressionlessrobotics</packageId>
+  <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Research overhaul for robots.
+
+Forked from Progression: Robotics by ferny.
+Huge thanks to ferny for the original mod and all the Progression work this builds on. Replaces the original; do not use both.
+
+For a really good modpack, check out The Progression Modpack on the Steam Workshop.</description>
+  <incompatibleWith>
+    <li>ferny.progressionrobotics2</li>
+  </incompatibleWith>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>Ludeon.RimWorld.Ideology</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+    <li>Ludeon.RimWorld.Anomaly</li>
+    <li>Ludeon.RimWorld.Odyssey</li>
+    <li>as1aw.morehunterdrones</li>
+    <li>rabiosus.extinguisherdrone</li>
+    <li>vanillaquestsexpanded.dronefactory</li>
+    <li>sarg.alphamechs</li>
+    <li>el.mow</li>
+    <li>pal5k.huntermechanoid</li>
+    <li>pal5k.scramblermechanoid</li>
+    <li>pal5k.logisticsmechanoid</li>
+    <li>smxrez.sastarfireboss</li>
+    <li>gondragon.mechanoidwaiter</li>
+    <li>sov.det.surrogatemech</li>
+    <li>el.invmech</li>
+    <li>bart.em</li>
+    <li>mortis.apexmechanoids</li>
+  </loadAfter>
 </ModMetaData>

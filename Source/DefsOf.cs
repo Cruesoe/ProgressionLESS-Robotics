@@ -1,6 +1,6 @@
 using RimWorld;
 
-namespace ProgressionRobotics2
+namespace ProgressionLESSRobotics
 {
     [DefOf]
     public static class DefsOf
