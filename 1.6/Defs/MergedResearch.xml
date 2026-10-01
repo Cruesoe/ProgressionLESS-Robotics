@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<ResearchProjectDef MayRequireAnyOf="ludeon.rimworld.biotech,sarg.alphamechs">
-		<defName>Ferny_Agrihand</defName>
-		<label>Light labor mechs</label>
-		<description>Gestate small mechanoids built for farming, cleaning and cooking.</description>
-		<baseCost>500</baseCost>
-		<techLevel>Spacer</techLevel>
-		<researchViewX>12.00</researchViewX>
-		<researchViewY>7.20</researchViewY>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<requiredResearchFacilities>
-			<li>MultiAnalyzer</li>
-		</requiredResearchFacilities>
-		<prerequisites>
-			<li MayRequire="ludeon.rimworld.biotech">BasicMechtech</li>
-		</prerequisites>
-	</ResearchProjectDef>
 	<ResearchProjectDef MayRequireAnyOf="sarg.alphamechs,pal5k.scramblermechanoid">
 		<defName>Ferny_Bellicor</defName>
 		<label>Light combat mech variants</label>
@@ -109,7 +93,6 @@
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>Ferny_Agrihand</li>
 			<li>Ferny_Militor</li>
 		</prerequisites>
 	</ResearchProjectDef>
