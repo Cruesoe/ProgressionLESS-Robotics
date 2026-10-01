@@ -5,7 +5,7 @@
 
     <!-- General -->
     <li IfModActive="ludeon.rimworld.odyssey">1.6/Mods and Shit/Odyssey</li>
-    <li IfModActive="as1aw.morehunterdrones">1.6/Mods and Shit/More Hunter Drones</li>
+    <li IfModActiveAll="as1aw.morehunterdrones,ludeon.rimworld.odyssey">1.6/Mods and Shit/More Hunter Drones</li>
     <li IfModActive="rabiosus.extinguisherdrone">1.6/Mods and Shit/Extinguisher Drone</li>
     <li IfModActive="ludeon.rimworld.biotech">1.6/Mods and Shit/Biotech</li>
     <li IfModActive="vanillaquestsexpanded.dronefactory">1.6/Mods and Shit/VQE Drone Factory</li>
