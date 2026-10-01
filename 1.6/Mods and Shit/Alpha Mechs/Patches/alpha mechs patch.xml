@@ -81,7 +81,7 @@
     <success>Always</success>
     <xpath>Defs/ResearchProjectDef[defName="AM_StandardMechtech"]/prerequisites</xpath>
     <value>
-		<prerequisites><li>StandardMechtech</li></prerequisites>
+		<prerequisites><li>HighMechtech</li></prerequisites>
     </value>
 </Operation>
 
@@ -172,7 +172,16 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_Mech_MasterChefRecipe"]</xpath>
         <value>
-            <researchPrerequisite>BasicMechtech</researchPrerequisite>
+            <researchPrerequisite>Ferny_Fabricor</researchPrerequisite>
+        </value>
+    </Operation>
+
+    <!-- Recipes Alpha Mechs adds with VE Books, VE Genetics and VE Fishing -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/RecipeDef[defName="AM_Gestate_Librarian" or defName="AM_Gestate_Geneticor" or defName="AM_Gestate_Angler"]/researchPrerequisite</xpath>
+        <value>
+            <researchPrerequisite>Ferny_Fabricor</researchPrerequisite>
         </value>
     </Operation>
 
@@ -232,28 +241,28 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_LuxRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Cyclops</researchPrerequisite>
+            <researchPrerequisite>Ferny_Centipedes</researchPrerequisite>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_MunifexRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Pikeman</researchPrerequisite>
+            <researchPrerequisite>Ferny_Centipedes</researchPrerequisite>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_OptioRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Pikeman</researchPrerequisite>
+            <researchPrerequisite>Ferny_Centipedes</researchPrerequisite>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_PolychoronRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Pikeman</researchPrerequisite>
+            <researchPrerequisite>Ferny_Centipedes</researchPrerequisite>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">

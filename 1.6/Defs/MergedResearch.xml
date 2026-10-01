@@ -32,7 +32,7 @@
 			<li MayRequire="ludeon.rimworld.biotech">StandardMechtech</li>
 		</prerequisites>
 	</ResearchProjectDef>
-	<ResearchProjectDef MayRequireAnyOf="ludeon.rimworld.biotech,bart.em,pal5k.logisticsmechanoid">
+	<ResearchProjectDef MayRequireAnyOf="ludeon.rimworld.biotech,pal5k.logisticsmechanoid">
 		<defName>Ferny_Excavator</defName>
 		<label>Heavy labor mechs</label>
 		<description>Gestate mechanoids built for mining, drilling and hauling.</description>
