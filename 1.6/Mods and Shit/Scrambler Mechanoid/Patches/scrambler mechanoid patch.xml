@@ -4,7 +4,7 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="Scrambler"]/researchPrerequisite</xpath>
 		<value>
-			<researchPrerequisite>Ferny_Bellicor</researchPrerequisite>
+			<researchPrerequisite>StandardMechtech</researchPrerequisite>
 		</value>
 	</Operation>
 

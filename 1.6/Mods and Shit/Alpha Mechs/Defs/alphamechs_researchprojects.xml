@@ -10,7 +10,7 @@
 		<researchViewY>7.90</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
-			<li>Ferny_Bellicor</li>
+			<li>StandardMechtech</li>
 		</prerequisites>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>

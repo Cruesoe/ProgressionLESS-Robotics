@@ -188,14 +188,14 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_BellicorRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Bellicor</researchPrerequisite>
+            <researchPrerequisite>StandardMechtech</researchPrerequisite>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_Mech_TurboCleanerRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Hunter</researchPrerequisite>
+            <researchPrerequisite>StandardMechtech</researchPrerequisite>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">

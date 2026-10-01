@@ -105,6 +105,16 @@
         <baseCost>5000</baseCost>
     </value>
 </Operation>
+<Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]</xpath>
+    <value>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+    </value>
+</Operation>
 
 
 <!-- <Operation Class="PatchOperationReplace">
