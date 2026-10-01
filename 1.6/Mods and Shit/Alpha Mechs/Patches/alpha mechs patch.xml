@@ -269,7 +269,7 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_ArtilleronRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Artilleron</researchPrerequisite>
+            <researchPrerequisite>Ferny_Pikeman</researchPrerequisite>
         </value>
     </Operation>
 
@@ -317,7 +317,11 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_SiegemelterRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Siegemelter</researchPrerequisite>
+            <researchPrerequisite>Ferny_Legionary</researchPrerequisite>
+            <researchPrerequisites>
+                <li>AM_UltraHeavyMechtech</li>
+                <li>AM_QuantumPulseMessaging</li>
+            </researchPrerequisites>
         </value>
     </Operation>
     

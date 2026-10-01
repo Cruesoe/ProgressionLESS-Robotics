@@ -360,7 +360,7 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="Warqueen"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_WarQueen</researchPrerequisite>
+            <researchPrerequisite>Ferny_Legionary</researchPrerequisite>
         </value>
     </Operation>
 

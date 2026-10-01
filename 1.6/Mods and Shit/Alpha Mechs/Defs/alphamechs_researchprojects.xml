@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<ResearchProjectDef>
-		<defName>Ferny_Artilleron</defName>
-		<label>Artilleron</label>
-		<description>Build a variation of the militor and bellicor, the artilleron stands at a height of around 5 feet and it is armed with a powerful mortar that fires explosive canisters with great accuracy. With its reduced durability, the Artilleron can't withstand intense battles and is often deployed in the rear lines to eliminate high priority targets and secure strategic objectives from afar. It can also swap weapons between its mortar and a low damage, high accuracy micro needle gun to avoid causing friendly fire with its explosives.</description>
-		<baseCost>800</baseCost>
-		<techLevel>Spacer</techLevel>
-		<researchViewX>14.00</researchViewX>
-		<researchViewY>7.90</researchViewY>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<prerequisites>
-			<li>StandardMechtech</li>
-		</prerequisites>
-		<requiredResearchFacilities>
-			<li>MultiAnalyzer</li>
-		</requiredResearchFacilities>
-	</ResearchProjectDef>
 	<!-- <ResearchProjectDef>
 		<defName>Ferny_Daggersnout</defName>
 		<label>Daggersnout</label>
@@ -124,23 +108,6 @@
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>AM_Cryptoharmonization</li>
-		</prerequisites>
-		<requiredResearchFacilities>
-			<li>MultiAnalyzer</li>
-		</requiredResearchFacilities>
-	</ResearchProjectDef>
-	<ResearchProjectDef>
-		<defName>Ferny_Siegemelter</defName>
-		<label>Siegemelter</label>
-		<description>Build a variant of the siegebreaker armed with a powerful flamethrower. Their movement is incredibly slow, but their siegemelter turret has a considerable range, so they should be treated as priority targets in most cases.</description>
-		<baseCost>4000</baseCost>
-		<techLevel>Ultra</techLevel>
-		<researchViewX>19.00</researchViewX>
-		<researchViewY>8.60</researchViewY>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<prerequisites>
-			<li>AM_UltraHeavyMechtech</li>
-			<li>AM_QuantumPulseMessaging</li>
 		</prerequisites>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>
