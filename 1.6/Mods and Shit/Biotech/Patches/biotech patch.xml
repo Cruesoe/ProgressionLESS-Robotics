@@ -126,7 +126,7 @@
 </Operation> -->
 <Operation Class="PatchOperationReplace">
     <success>Always</success>
-    <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]/baseCost</xpath>
+    <xpath>Defs/ResearchProjectDef[defName="HighMechtech"]/baseCost</xpath>
     <value>
         <baseCost>8000</baseCost>
     </value>
