@@ -131,6 +131,13 @@
         <baseCost>8000</baseCost>
     </value>
 </Operation>
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="UltraMechtech"]/baseCost</xpath>
+    <value>
+        <baseCost>8000</baseCost>
+    </value>
+</Operation>
 
 
 <!-- New research projects -->
