@@ -13,7 +13,7 @@
 			<li>MultiAnalyzer</li>
 		</requiredResearchFacilities>
 		<prerequisites>
-			<li>Ferny_Militor</li>
+			<li MayRequire="ludeon.rimworld.biotech">BasicMechtech</li>
 		</prerequisites>
 	</ResearchProjectDef>
 	<ResearchProjectDef MayRequireAnyOf="ludeon.rimworld.biotech,sarg.alphamechs">
@@ -88,22 +88,6 @@
 		<techLevel>Spacer</techLevel>
 		<researchViewX>13.00</researchViewX>
 		<researchViewY>7.20</researchViewY>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<requiredResearchFacilities>
-			<li>MultiAnalyzer</li>
-		</requiredResearchFacilities>
-		<prerequisites>
-			<li>Ferny_Militor</li>
-		</prerequisites>
-	</ResearchProjectDef>
-	<ResearchProjectDef MayRequireAnyOf="ludeon.rimworld.biotech,sarg.alphamechs">
-		<defName>Ferny_Militor</defName>
-		<label>Light combat mechs</label>
-		<description>Gestate small combat mechanoids such as the militor.</description>
-		<baseCost>500</baseCost>
-		<techLevel>Spacer</techLevel>
-		<researchViewX>12.00</researchViewX>
-		<researchViewY>7.90</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<requiredResearchFacilities>
 			<li>MultiAnalyzer</li>

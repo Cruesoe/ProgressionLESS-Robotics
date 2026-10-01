@@ -180,7 +180,7 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="AM_BlitzkriegRecipe"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_Militor</researchPrerequisite>
+            <researchPrerequisite>BasicMechtech</researchPrerequisite>
         </value>
     </Operation>
 
