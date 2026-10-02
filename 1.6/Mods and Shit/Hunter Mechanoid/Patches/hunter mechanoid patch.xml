@@ -4,26 +4,12 @@
 	<Operation Class="PatchOperationReplace">
 		<xpath>Defs/RecipeDef[defName="Hunter"]/researchPrerequisite</xpath>
 		<value>
-			<researchPrerequisite>Ferny_Hunter</researchPrerequisite>
+			<researchPrerequisite>StandardMechtech</researchPrerequisite>
 		</value>
 	</Operation>
 
 	<Operation Class="PatchOperationRemove">
 		<xpath>Defs/RecipeDef[defName="Hunter"]/researchPrerequisites</xpath>
-	</Operation>
-
-	<Operation Class="PatchOperationFindMod">
-		<mods>
-			<li>Alpha Mechs</li>
-		</mods>
-		<match Class="PatchOperationAdd">
-			<xpath>Defs/RecipeDef[defName="Hunter"]</xpath>
-			<value>
-				<researchPrerequisites>
-					<li>Ferny_Bellicor</li>
-				</researchPrerequisites>
-			</value>
-		</match>
 	</Operation>
 
 </Patch>

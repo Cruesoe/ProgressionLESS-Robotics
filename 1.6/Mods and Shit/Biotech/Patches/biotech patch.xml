@@ -60,18 +60,28 @@
     </value>
 </Operation>
 
-<Operation Class="PatchOperationReplace">
+<!-- <Operation Class="PatchOperationReplace">
     <success>Always</success>
     <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]/label</xpath>
     <value>
         <label>Mechanoids</label>
     </value>
-</Operation>
+</Operation> -->
 <Operation Class="PatchOperationReplace">
     <success>Always</success>
     <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]/baseCost</xpath>
     <value>
         <baseCost>3000</baseCost>
+    </value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]</xpath>
+    <value>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
     </value>
 </Operation>
 
@@ -81,13 +91,13 @@
 </Operation>
 
 
-<Operation Class="PatchOperationReplace">
+<!-- <Operation Class="PatchOperationReplace">
     <success>Always</success>
     <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]/label</xpath>
     <value>
         <label>Large mech gestator</label>
     </value>
-</Operation>
+</Operation> -->
 <Operation Class="PatchOperationReplace">
     <success>Always</success>
     <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]/baseCost</xpath>
@@ -95,18 +105,35 @@
         <baseCost>5000</baseCost>
     </value>
 </Operation>
+<Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]</xpath>
+    <value>
+        <requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
+        <requiredResearchFacilities>
+            <li>MultiAnalyzer</li>
+        </requiredResearchFacilities>
+    </value>
+</Operation>
 
 
-<Operation Class="PatchOperationReplace">
+<!-- <Operation Class="PatchOperationReplace">
     <success>Always</success>
     <xpath>Defs/ResearchProjectDef[defName="HighMechtech"]/label</xpath>
     <value>
         <label>Subcore ripscanner</label>
     </value>
+</Operation> -->
+<Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ResearchProjectDef[defName="HighMechtech"]/baseCost</xpath>
+    <value>
+        <baseCost>8000</baseCost>
+    </value>
 </Operation>
 <Operation Class="PatchOperationReplace">
     <success>Always</success>
-    <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]/baseCost</xpath>
+    <xpath>Defs/ResearchProjectDef[defName="UltraMechtech"]/baseCost</xpath>
     <value>
         <baseCost>8000</baseCost>
     </value>
@@ -115,13 +142,6 @@
 
 <!-- New research projects -->
 
-    <Operation Class="PatchOperationReplace">
-        <success>Always</success>
-        <xpath>Defs/RecipeDef[defName="Agrihand"]/researchPrerequisite</xpath>
-        <value>
-            <researchPrerequisite>Ferny_Agrihand</researchPrerequisite>
-        </value>
-    </Operation>
 
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Apparel_AirwireHeadset"]/recipeMaker/researchPrerequisite</xpath>
@@ -237,13 +257,6 @@
         </value>
     </Operation>
 
-    <Operation Class="PatchOperationAdd">
-        <success>Always</success>
-        <xpath>Defs/RecipeDef[defName="Cleansweeper"]</xpath>
-        <value>
-            <researchPrerequisite>Ferny_Agrihand</researchPrerequisite>
-        </value>
-    </Operation>
 
     <Operation Class="PatchOperationAdd">
         <success>Always</success>
@@ -277,14 +290,6 @@
             <researchPrerequisite>Ferny_Lifter</researchPrerequisite>
         </value>
     </Operation> -->
-
-    <Operation Class="PatchOperationAdd">
-        <success>Always</success>
-        <xpath>Defs/RecipeDef[defName="Militor"]</xpath>
-        <value>
-            <researchPrerequisite>Ferny_Militor</researchPrerequisite>
-        </value>
-    </Operation>
 
     <Operation Class="PatchOperationAdd">
         <success>Always</success>
@@ -362,7 +367,7 @@
         <success>Always</success>
         <xpath>Defs/RecipeDef[defName="Warqueen"]</xpath>
         <value>
-            <researchPrerequisite>Ferny_WarQueen</researchPrerequisite>
+            <researchPrerequisite>Ferny_Legionary</researchPrerequisite>
         </value>
     </Operation>
 

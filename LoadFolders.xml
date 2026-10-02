@@ -5,11 +5,11 @@
 
     <!-- General -->
     <li IfModActive="ludeon.rimworld.odyssey">1.6/Mods and Shit/Odyssey</li>
-    <li IfModActive="as1aw.morehunterdrones">1.6/Mods and Shit/More Hunter Drones</li>
+    <li IfModActiveAll="as1aw.morehunterdrones,ludeon.rimworld.odyssey">1.6/Mods and Shit/More Hunter Drones</li>
     <li IfModActive="rabiosus.extinguisherdrone">1.6/Mods and Shit/Extinguisher Drone</li>
     <li IfModActive="ludeon.rimworld.biotech">1.6/Mods and Shit/Biotech</li>
     <li IfModActive="vanillaquestsexpanded.dronefactory">1.6/Mods and Shit/VQE Drone Factory</li>
-    <li IfModActive="sarg.alphamechs">1.6/Mods and Shit/Alpha Mechs</li>
+    <li IfModActiveAll="sarg.alphamechs,ludeon.rimworld.biotech">1.6/Mods and Shit/Alpha Mechs</li>
     <li IfModActive="Mortis.ApexMechanoids">1.6/Mods and Shit/Apex Mechanoids</li>
     <li IfModActive="EL.MOW">1.6/Mods and Shit/Machines of War</li>
     <li IfModActive="Pal5k.HunterMechanoid">1.6/Mods and Shit/Hunter Mechanoid</li>
