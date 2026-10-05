@@ -1,0 +1,38 @@
+[h1]ProgressionLESS: Robotics[/h1]
+[b]All the Progression goodness, less research.[/b]
+
+[i]Forked from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3736402055]Progression: Robotics[/url] by ferny. Huge thanks to ferny for the original mod and all the Progression work this builds on. For a really good modpack, check out [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3521297585]The Progression Modpack[/url].[/i]
+
+[h2]What it does[/h2]
+[list]
+[*]Research overhaul for robots: each mech, drone and piece of mechanitor gear unlocks in its proper tech era.
+[*]Mechs unlock behind the mechtech tier that makes their subcore: basic, standard or high.
+[*]Mechanitor gear, mech boosters and mech facilities get their own steps through the tiers.
+[/list]
+
+[h2]Why "LESS"?[/h2]
+Progression: Robotics adds up to [b]125[/b] research projects depending on your mods. This fork groups them into at most [b]43[/b], and the mechtech tiers keep their vanilla names.
+[list]
+[*][b]Industrial:[/b] Hunter pack, Hunter drone traps and packs, Extinguisher drone, Work drones and Combat drones.
+[*][b]Spacer:[/b] Heavy labor, Service, Front-line and Ranged mechs; Advanced labor, Heavy combat and Invader mechs; War machines; Mechanitor gear in three steps; Mech booster and field devices; Apex mechs, Conquerors and Commander mechs.
+[*][b]Ultra:[/b] Ultra combat mechs, Ultra mechanitor gear, Remote mechlink upgrades and Apocriton-class mechs.
+[/list]
+
+[h2]Compatibility[/h2]
+[list]
+[*]Biotech and Odyssey
+[*]Alpha Mechs (with Biotech)
+[*]Apex Mechanoids
+[*]Machines of War
+[*]Mechanoid Invaders
+[*]More Hunter Drones (with Odyssey)
+[*]Vanilla Quests Expanded - Drone Factory
+[*]Extinguisher Drone
+[*]Pal5k's Hunter, Scrambler and Logistics Mechanoids
+[*]Excavator Mechanoid, Mechanoid Waiter and Surrogate Mechanoid
+[*]Simple Additions: Starfire Boss
+[/list]
+
+[b]Replaces the original. Don't use both.[/b]
+
+[b]Switching mid-game isn't recommended.[/b] Many of the original's research projects are merged or removed, so swapping Progression: Robotics for this fork in an existing save can lose research progress. Start a new game when you switch.
