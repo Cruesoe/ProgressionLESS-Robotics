@@ -264,8 +264,8 @@
 		<description>Build a remote energy efficiency enhancement device. Any friendly mechanoids in its effect radius will use less energy per day.</description>
 		<baseCost>2000</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>29.00</researchViewX>
-		<researchViewY>4.20</researchViewY>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>Ferny_MechBooster</li>
@@ -281,8 +281,8 @@
 		<description>Build a remote armor reinforcement device. Any friendly mechanoids in its effect radius will have greater protection against attacks.</description>
 		<baseCost>2000</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>29.00</researchViewX>
-		<researchViewY>0.70</researchViewY>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>Ferny_MechBooster</li>
@@ -298,8 +298,8 @@
 		<description>Build a remote targeting enhancement device. Any friendly mechanoids in its effect radius will have reduced weapon cooldown.</description>
 		<baseCost>2000</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>29.00</researchViewX>
-		<researchViewY>1.40</researchViewY>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>Ferny_MechBooster</li>
@@ -315,8 +315,8 @@
 		<description>Build a remote energy and computation enhancement device. Any friendly mechanoids in its effect radius will move and work faster. This boost will be overwritten if the mech enters the range of a standard mech booster. The effect of the persistent mech booster will remain on the mech up to 3 hours after leaving its area of effect.</description>
 		<baseCost>4000</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>30.00</researchViewX>
-		<researchViewY>0.70</researchViewY>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>Ferny_MechEfficiencyBooster</li>
@@ -334,8 +334,8 @@
 		<description>Build a remote mech disruption device. Any enemy mechanoids in its effect radius will have reduced agility, movement and targeting skill.</description>
 		<baseCost>4000</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>30.00</researchViewX>
-		<researchViewY>3.50</researchViewY>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>Ferny_MechEfficiencyBooster</li>
@@ -353,8 +353,8 @@
 		<description>Manufacture a heavy power armor helmet packed with mechanitor-assistance gear. The mech master helmet drastically amplifies a mechanitor's bandwidth, while being as protective as a marine helmet.</description>
 		<baseCost>4000</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>29.00</researchViewX>
-		<researchViewY>3.50</researchViewY>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>Ferny_MechCommanderHelmet</li>
@@ -370,8 +370,8 @@
 		<description>Build a remote mech disruption device. Any enemy mechanoids in its effect radius will have reduced agility, movement and targeting skill.</description>
 		<baseCost>4000</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>28.00</researchViewX>
-		<researchViewY>4.20</researchViewY>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>Ferny_BandNode</li>
@@ -388,8 +388,8 @@
 		<description>Manufacture a backpack containing a voidlink relay to access the vast amounts of data present on this system's mechanoid voidlink network. It can vastly increase a mechanitor's maximum total bandwidth.</description>
 		<baseCost>4000</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>27.00</researchViewX>
-		<researchViewY>4.20</researchViewY>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>AM_VoidLinkConnectivity</li>
@@ -405,8 +405,8 @@
 		<description>Build a hulking mechanoid based on a rhinoceros beetle body plan. The phalanx's plasteel carapace hides a very powerful cryogenic engine capable of constantly producing compacted pellets of supercooled gas. These are fired from an aperture at the mechanoid's head.\n\nThis cryo-weapon has a very low range, but it can be very dangerous for beings susceptible to frostbite.</description>
 		<baseCost>5000</baseCost>
 		<techLevel>Ultra</techLevel>
-		<researchViewX>30.00</researchViewX>
-		<researchViewY>2.80</researchViewY>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>1.00</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>AM_Cryptoharmonization</li>
