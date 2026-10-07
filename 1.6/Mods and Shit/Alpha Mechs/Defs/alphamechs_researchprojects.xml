@@ -22,8 +22,8 @@
 		<description>Build devices that boost the efficiency, protection and targeting of nearby friendly mechs.</description>
 		<baseCost>2000</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>17.00</researchViewX>
-		<researchViewY>9.30</researchViewY>
+		<researchViewX>29.00</researchViewX>
+		<researchViewY>4.20</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>Ferny_MechBooster</li>
@@ -38,8 +38,8 @@
 		<description>Build the mech disruptor and persistent mech booster.</description>
 		<baseCost>4000</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>18.00</researchViewX>
-		<researchViewY>9.30</researchViewY>
+		<researchViewX>30.00</researchViewX>
+		<researchViewY>3.50</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>Ferny_MechEfficiencyBooster</li>
@@ -54,8 +54,8 @@
 		<description>Manufacture a heavy power armor helmet packed with mechanitor-assistance gear. The mech master helmet drastically amplifies a mechanitor's bandwidth, while being as protective as a marine helmet.</description>
 		<baseCost>4000</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>15.00</researchViewX>
-		<researchViewY>9.30</researchViewY>
+		<researchViewX>29.00</researchViewX>
+		<researchViewY>3.50</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>Ferny_IntegratorHeadset</li>
@@ -70,8 +70,8 @@
 		<description>Build a remote mech disruption device. Any enemy mechanoids in its effect radius will have reduced agility, movement and targeting skill.</description>
 		<baseCost>4000</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>14.00</researchViewX>
-		<researchViewY>10.00</researchViewY>
+		<researchViewX>28.00</researchViewX>
+		<researchViewY>4.20</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>Ferny_ControlSublinkHigh</li>
@@ -87,8 +87,8 @@
 		<description>Manufacture a backpack containing a voidlink relay to access the vast amounts of data present on this system's mechanoid voidlink network. It can vastly increase a mechanitor's maximum total bandwidth.</description>
 		<baseCost>4000</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>13.00</researchViewX>
-		<researchViewY>10.00</researchViewY>
+		<researchViewX>27.00</researchViewX>
+		<researchViewY>4.20</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>AM_VoidLinkConnectivity</li>
@@ -103,8 +103,8 @@
 		<description>Summon the apoptosis and infernus mechanoids.</description>
 		<baseCost>5000</baseCost>
 		<techLevel>Ultra</techLevel>
-		<researchViewX>18.00</researchViewX>
-		<researchViewY>8.60</researchViewY>
+		<researchViewX>30.00</researchViewX>
+		<researchViewY>2.80</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>AM_Cryptoharmonization</li>

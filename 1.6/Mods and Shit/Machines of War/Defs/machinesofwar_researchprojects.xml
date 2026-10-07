@@ -6,8 +6,8 @@
 		<description>Gestate the cicada, demolisher and enforcer war machines.</description>
 		<baseCost>1500</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>16.00</researchViewX>
-		<researchViewY>8.60</researchViewY>
+		<researchViewX>28.00</researchViewX>
+		<researchViewY>2.80</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>HighMechtech</li>

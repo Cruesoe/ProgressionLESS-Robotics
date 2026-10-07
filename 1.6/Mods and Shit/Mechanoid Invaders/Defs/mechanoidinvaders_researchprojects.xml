@@ -8,8 +8,8 @@
 		<description>Gestate berserker, bombardier, constrictor, infiltrator and templar mechanoids.</description>
 		<baseCost>1500</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>17.00</researchViewX>
-		<researchViewY>8.60</researchViewY>
+		<researchViewX>29.00</researchViewX>
+		<researchViewY>2.80</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>HighMechtech</li>
@@ -24,8 +24,8 @@
 		<description>Build a mechlink upgrade which allows the mechanitor to interface with a mechanoid to boost its performance and reduce incoming damage. The user psychically links with their target, using their own brain as a backup for critical subsystems.</description>
 		<baseCost>1500</baseCost>
 		<techLevel>Spacer</techLevel>
-		<researchViewX>17.00</researchViewX>
-		<researchViewY>10.00</researchViewY>
+		<researchViewX>29.00</researchViewX>
+		<researchViewY>4.90</researchViewY>
 		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
 		<prerequisites>
 			<li>HighMechtech</li>
