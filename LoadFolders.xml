@@ -1,25 +1,50 @@
 <loadFolders>
   <v1.6>
     <li>/</li>
+    <li>Common</li>
     <li>1.6</li>
 
     <!-- General -->
-    <li IfModActive="ludeon.rimworld.odyssey">1.6/Mods and Shit/Odyssey</li>
-    <li IfModActiveAll="as1aw.morehunterdrones,ludeon.rimworld.odyssey">1.6/Mods and Shit/More Hunter Drones</li>
-    <li IfModActive="rabiosus.extinguisherdrone">1.6/Mods and Shit/Extinguisher Drone</li>
-    <li IfModActive="ludeon.rimworld.biotech">1.6/Mods and Shit/Biotech</li>
-    <li IfModActive="vanillaquestsexpanded.dronefactory">1.6/Mods and Shit/VQE Drone Factory</li>
-    <li IfModActiveAll="sarg.alphamechs,ludeon.rimworld.biotech">1.6/Mods and Shit/Alpha Mechs</li>
-    <li IfModActive="Mortis.ApexMechanoids">1.6/Mods and Shit/Apex Mechanoids</li>
-    <li IfModActive="EL.MOW">1.6/Mods and Shit/Machines of War</li>
-    <li IfModActive="Pal5k.HunterMechanoid">1.6/Mods and Shit/Hunter Mechanoid</li>
-    <li IfModActive="Pal5k.ScramblerMechanoid">1.6/Mods and Shit/Scrambler Mechanoid</li>
-    <li IfModActive="Pal5k.LogisticsMechanoid">1.6/Mods and Shit/Logistics Mechanoid</li>
-    <li IfModActive="Smxrez.SAStarfireboss">1.6/Mods and Shit/Simple Additions Starfire Boss</li>
-    <li IfModActive="gondragon.mechanoidwaiter">1.6/Mods and Shit/Mechanoid Waiter</li>
-    <li IfModActive="sov.det.surrogatemech">1.6/Mods and Shit/Surrogate Mechanoid</li>
-    <li IfModActive="el.invmech">1.6/Mods and Shit/Mechanoid Invaders</li>
-    <li IfModActive="bart.em">1.6/Mods and Shit/Excavator Mechanoid</li>
+    <li IfModActive="ludeon.rimworld.odyssey">Common/Mods and Shit/Odyssey</li>
+    <li IfModActiveAll="as1aw.morehunterdrones,ludeon.rimworld.odyssey">Common/Mods and Shit/More Hunter Drones</li>
+    <li IfModActive="rabiosus.extinguisherdrone">Common/Mods and Shit/Extinguisher Drone</li>
+    <li IfModActive="ludeon.rimworld.biotech">Common/Mods and Shit/Biotech</li>
+    <li IfModActive="vanillaquestsexpanded.dronefactory">Common/Mods and Shit/VQE Drone Factory</li>
+    <li IfModActiveAll="sarg.alphamechs,ludeon.rimworld.biotech">Common/Mods and Shit/Alpha Mechs</li>
+    <li IfModActive="Mortis.ApexMechanoids">Common/Mods and Shit/Apex Mechanoids</li>
+    <li IfModActive="EL.MOW">Common/Mods and Shit/Machines of War</li>
+    <li IfModActive="Pal5k.HunterMechanoid">Common/Mods and Shit/Hunter Mechanoid</li>
+    <li IfModActive="Pal5k.ScramblerMechanoid">Common/Mods and Shit/Scrambler Mechanoid</li>
+    <li IfModActive="Pal5k.LogisticsMechanoid">Common/Mods and Shit/Logistics Mechanoid</li>
+    <li IfModActive="Smxrez.SAStarfireboss">Common/Mods and Shit/Simple Additions Starfire Boss</li>
+    <li IfModActive="gondragon.mechanoidwaiter">Common/Mods and Shit/Mechanoid Waiter</li>
+    <li IfModActive="sov.det.surrogatemech">Common/Mods and Shit/Surrogate Mechanoid</li>
+    <li IfModActive="el.invmech">Common/Mods and Shit/Mechanoid Invaders</li>
+    <li IfModActive="bart.em">Common/Mods and Shit/Excavator Mechanoid</li>
 
   </v1.6>
+  <v1.7>
+    <li>/</li>
+    <li>Common</li>
+    <li>1.7</li>
+
+    <!-- General -->
+    <li IfModActive="ludeon.rimworld.odyssey">Common/Mods and Shit/Odyssey</li>
+    <li IfModActiveAll="as1aw.morehunterdrones,ludeon.rimworld.odyssey">Common/Mods and Shit/More Hunter Drones</li>
+    <li IfModActive="rabiosus.extinguisherdrone">Common/Mods and Shit/Extinguisher Drone</li>
+    <li IfModActive="ludeon.rimworld.biotech">Common/Mods and Shit/Biotech</li>
+    <li IfModActive="vanillaquestsexpanded.dronefactory">Common/Mods and Shit/VQE Drone Factory</li>
+    <li IfModActiveAll="sarg.alphamechs,ludeon.rimworld.biotech">Common/Mods and Shit/Alpha Mechs</li>
+    <li IfModActive="Mortis.ApexMechanoids">Common/Mods and Shit/Apex Mechanoids</li>
+    <li IfModActive="EL.MOW">Common/Mods and Shit/Machines of War</li>
+    <li IfModActive="Pal5k.HunterMechanoid">Common/Mods and Shit/Hunter Mechanoid</li>
+    <li IfModActive="Pal5k.ScramblerMechanoid">Common/Mods and Shit/Scrambler Mechanoid</li>
+    <li IfModActive="Pal5k.LogisticsMechanoid">Common/Mods and Shit/Logistics Mechanoid</li>
+    <li IfModActive="Smxrez.SAStarfireboss">Common/Mods and Shit/Simple Additions Starfire Boss</li>
+    <li IfModActive="gondragon.mechanoidwaiter">Common/Mods and Shit/Mechanoid Waiter</li>
+    <li IfModActive="sov.det.surrogatemech">Common/Mods and Shit/Surrogate Mechanoid</li>
+    <li IfModActive="el.invmech">Common/Mods and Shit/Mechanoid Invaders</li>
+    <li IfModActive="bart.em">Common/Mods and Shit/Excavator Mechanoid</li>
+
+  </v1.7>
 </loadFolders>
