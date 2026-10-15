@@ -1,36 +1,37 @@
-[h1]ProgressionLESS: Robotics[/h1]
 [b]All the Progression goodness, less research.[/b]
 
-[i]Forked from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3736402055]Progression: Robotics[/url] by ferny. Huge thanks to ferny for the original mod and all the Progression work this builds on. For a really good modpack, check out [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3521297585]The Progression Modpack[/url].[/i]
+[i]This is a fork of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3736402055]Progression: Robotics[/url] by ferny. Huge thanks to ferny for the original mod and all the Progression work this builds on. For a really good modpack, check out [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3521297585]The Progression Modpack[/url].[/i]
 
-[h2]What it does[/h2]
+[h2]Features[/h2]
 [list]
-[*]Research overhaul for robots: each mech, drone and piece of mechanitor gear unlocks in its proper tech era.
+[*]Overhauls robot research, so each mech, drone and piece of mechanitor gear unlocks in its proper tech era.
 [*]Mechs unlock behind the mechtech tier that makes their subcore: basic, standard or high.
 [*]Mechanitor gear, mech boosters and mech facilities get their own steps through the tiers.
 [/list]
 
 [h2]Why "LESS"?[/h2]
-Progression: Robotics adds up to [b]125[/b] research projects depending on your mods. This fork groups them into at most [b]43[/b], and the mechtech tiers keep their vanilla names.
+Progression: Robotics adds up to [b]125 research projects[/b] depending on your mods. This fork groups them into [b]at most 43[/b], and the mechtech tiers keep their vanilla names:
 [list]
-[*][b]Industrial:[/b] Hunter pack, Hunter drone traps and packs, Extinguisher drone, Work drones and Combat drones.
-[*][b]Spacer:[/b] Heavy labor, Service, Front-line and Ranged mechs; Advanced labor, Heavy combat and Invader mechs; War machines; Mechanitor gear in three steps; Mech booster and field devices; Apex mechs, Conquerors and Commander mechs.
-[*][b]Ultra:[/b] Ultra combat mechs, Ultra mechanitor gear, Remote mechlink upgrades and Apocriton-class mechs.
+[*][b]Hunter pack[/b], [b]Hunter drone traps and packs[/b], [b]Extinguisher drone[/b], [b]Work drones[/b] and [b]Combat drones[/b] (Industrial).
+[*][b]Heavy labor[/b], [b]Service[/b], [b]Front-line[/b] and [b]Ranged mechs[/b]; [b]Advanced labor[/b], [b]Heavy combat[/b] and [b]Invader mechs[/b]; [b]War machines[/b]; [b]Mechanitor gear[/b] in three steps; [b]Mech booster and field devices[/b]; [b]Apex mechs[/b], [b]Conquerors[/b] and [b]Commander mechs[/b] (Spacer).
+[*][b]Ultra combat mechs[/b], [b]Ultra mechanitor gear[/b], [b]Remote mechlink upgrades[/b] and [b]Apocriton-class mechs[/b] (Ultra).
 [/list]
+Everything stays in the same era, and still needs the other research it did before.
 
 [h2]Compatibility[/h2]
+Keeps all of the original's mod support:
 [list]
-[*]Biotech and Odyssey
-[*]Alpha Mechs (with Biotech)
-[*]Apex Mechanoids
-[*]Machines of War
-[*]Mechanoid Invaders
-[*]More Hunter Drones (with Odyssey)
-[*]Vanilla Quests Expanded - Drone Factory
-[*]Extinguisher Drone
-[*]Pal5k's Hunter, Scrambler and Logistics Mechanoids
-[*]Excavator Mechanoid, Mechanoid Waiter and Surrogate Mechanoid
-[*]Simple Additions: Starfire Boss
+[*]Biotech and Odyssey.
+[*]Alpha Mechs (with Biotech).
+[*]Apex Mechanoids.
+[*]Machines of War.
+[*]Mechanoid Invaders.
+[*]More Hunter Drones (with Odyssey).
+[*]Vanilla Quests Expanded - Drone Factory.
+[*]Extinguisher Drone.
+[*]Pal5k's Hunter, Scrambler and Logistics Mechanoids.
+[*]Excavator Mechanoid, Mechanoid Waiter and Surrogate Mechanoid.
+[*]Simple Additions: Starfire Boss.
 [/list]
 
 [b]Replaces the original. Don't use both.[/b]
