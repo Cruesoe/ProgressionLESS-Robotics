@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- electronic attack into electronic warfare -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/*/researchPrerequisites/li[.="DMSE_ElectronicAttack"] | Defs/*/recipeMaker/researchPrerequisites/li[.="DMSE_ElectronicAttack"] | Defs/ResearchProjectDef/prerequisites/li[.="DMSE_ElectronicAttack"] | Defs/Vehicles.UpgradeTreeDef/nodes/li/researchPrerequisites/li[.="DMSE_ElectronicAttack"]</xpath>
+        <value>
+            <li>DMSE_ElectronicWarfare</li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/*/researchPrerequisite[.="DMSE_ElectronicAttack"] | Defs/*/recipeMaker/researchPrerequisite[.="DMSE_ElectronicAttack"]</xpath>
+        <value>
+            <researchPrerequisite>DMSE_ElectronicWarfare</researchPrerequisite>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ScenarioDef/scenario/parts/li/project[.="DMSE_ElectronicAttack"]</xpath>
+        <value>
+            <project>DMSE_ElectronicWarfare</project>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DMSE_ElectronicAttack"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DMSE_ElectronicWarfare"]/baseCost</xpath>
+        <value>
+            <baseCost>5000</baseCost>
+        </value>
+    </Operation>
+
+    <!-- anti-ship missiles into basic missile engineering -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/*/researchPrerequisites/li[.="DMSE_AntishipMissiles"] | Defs/*/recipeMaker/researchPrerequisites/li[.="DMSE_AntishipMissiles"] | Defs/ResearchProjectDef/prerequisites/li[.="DMSE_AntishipMissiles"] | Defs/Vehicles.UpgradeTreeDef/nodes/li/researchPrerequisites/li[.="DMSE_AntishipMissiles"]</xpath>
+        <value>
+            <li>DMSE_LoiteringMunitions</li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/*/researchPrerequisite[.="DMSE_AntishipMissiles"] | Defs/*/recipeMaker/researchPrerequisite[.="DMSE_AntishipMissiles"]</xpath>
+        <value>
+            <researchPrerequisite>DMSE_LoiteringMunitions</researchPrerequisite>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ScenarioDef/scenario/parts/li/project[.="DMSE_AntishipMissiles"]</xpath>
+        <value>
+            <project>DMSE_LoiteringMunitions</project>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DMSE_AntishipMissiles"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DMSE_LoiteringMunitions"]/label</xpath>
+        <value>
+            <label>missile engineering</label>
+        </value>
+    </Operation>
+
+    <!-- Aerospace Applications into Microgravity Manufacturing -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/*/researchPrerequisites/li[.="DMSE_Aerospace"] | Defs/*/recipeMaker/researchPrerequisites/li[.="DMSE_Aerospace"] | Defs/ResearchProjectDef/prerequisites/li[.="DMSE_Aerospace"] | Defs/Vehicles.UpgradeTreeDef/nodes/li/researchPrerequisites/li[.="DMSE_Aerospace"]</xpath>
+        <value>
+            <li>DMSE_Microgravity</li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/*/researchPrerequisite[.="DMSE_Aerospace"] | Defs/*/recipeMaker/researchPrerequisite[.="DMSE_Aerospace"]</xpath>
+        <value>
+            <researchPrerequisite>DMSE_Microgravity</researchPrerequisite>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ScenarioDef/scenario/parts/li/project[.="DMSE_Aerospace"]</xpath>
+        <value>
+            <project>DMSE_Microgravity</project>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DMSE_Aerospace"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DMSE_Microgravity"]/baseCost</xpath>
+        <value>
+            <baseCost>1500</baseCost>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DMSE_Microgravity"]/label</xpath>
+        <value>
+            <label>space manufacturing</label>
+        </value>
+    </Operation>
+
+    <!-- ballistic platform research unlocks nothing -->
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DMSE_Ballistics"]</xpath>
+    </Operation>
+
+</Patch>

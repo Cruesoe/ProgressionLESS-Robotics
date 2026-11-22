@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Defense Equipment into Military Equipment -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/*/researchPrerequisites/li[.="DMS_EquipmentAdvanced"] | Defs/*/recipeMaker/researchPrerequisites/li[.="DMS_EquipmentAdvanced"] | Defs/ResearchProjectDef/prerequisites/li[.="DMS_EquipmentAdvanced"] | Defs/Vehicles.UpgradeTreeDef/nodes/li/researchPrerequisites/li[.="DMS_EquipmentAdvanced"]</xpath>
+        <value>
+            <li>DMS_EquipmentElite</li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/*/researchPrerequisite[.="DMS_EquipmentAdvanced"] | Defs/*/recipeMaker/researchPrerequisite[.="DMS_EquipmentAdvanced"]</xpath>
+        <value>
+            <researchPrerequisite>DMS_EquipmentElite</researchPrerequisite>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ScenarioDef/scenario/parts/li/project[.="DMS_EquipmentAdvanced"]</xpath>
+        <value>
+            <project>DMS_EquipmentElite</project>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DMS_EquipmentAdvanced"]</xpath>
+    </Operation>
+
+    <!-- Legion into Automatroid Basis -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/*/researchPrerequisites/li[.="DMS_Legion"] | Defs/*/recipeMaker/researchPrerequisites/li[.="DMS_Legion"] | Defs/ResearchProjectDef/prerequisites/li[.="DMS_Legion"] | Defs/Vehicles.UpgradeTreeDef/nodes/li/researchPrerequisites/li[.="DMS_Legion"]</xpath>
+        <value>
+            <li>DMS_Automatroid</li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/*/researchPrerequisite[.="DMS_Legion"] | Defs/*/recipeMaker/researchPrerequisite[.="DMS_Legion"]</xpath>
+        <value>
+            <researchPrerequisite>DMS_Automatroid</researchPrerequisite>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ScenarioDef/scenario/parts/li/project[.="DMS_Legion"]</xpath>
+        <value>
+            <project>DMS_Automatroid</project>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DMS_Legion"]</xpath>
+    </Operation>
+
+    <!-- Battle Friends into Mecha Gear -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/*/researchPrerequisites/li[.="DMS_BattleFrame"] | Defs/*/recipeMaker/researchPrerequisites/li[.="DMS_BattleFrame"] | Defs/ResearchProjectDef/prerequisites/li[.="DMS_BattleFrame"] | Defs/Vehicles.UpgradeTreeDef/nodes/li/researchPrerequisites/li[.="DMS_BattleFrame"]</xpath>
+        <value>
+            <li>DMS_MechBasis</li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/*/researchPrerequisite[.="DMS_BattleFrame"] | Defs/*/recipeMaker/researchPrerequisite[.="DMS_BattleFrame"]</xpath>
+        <value>
+            <researchPrerequisite>DMS_MechBasis</researchPrerequisite>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ScenarioDef/scenario/parts/li/project[.="DMS_BattleFrame"]</xpath>
+        <value>
+            <project>DMS_MechBasis</project>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DMS_BattleFrame"]</xpath>
+    </Operation>
+
+    <!-- Cluster Transceiver into Advanced control; Sterile materials moves onto its items -->
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/*[researchPrerequisites/li="DMS_Mechlink"]/researchPrerequisites | Defs/*/recipeMaker[researchPrerequisites/li="DMS_Mechlink"]/researchPrerequisites | Defs/*[researchPrerequisite="DMS_Mechlink"]/researchPrerequisites | Defs/*/recipeMaker[researchPrerequisite="DMS_Mechlink"]/researchPrerequisites | Defs/ResearchProjectDef[prerequisites/li="DMS_Mechlink"]/prerequisites</xpath>
+        <value>
+            <li>SterileMaterials</li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/*[researchPrerequisite="DMS_Mechlink" and not(researchPrerequisites)] | Defs/*/recipeMaker[researchPrerequisite="DMS_Mechlink" and not(researchPrerequisites)]</xpath>
+        <value>
+            <researchPrerequisites><li>SterileMaterials</li></researchPrerequisites>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/*/researchPrerequisites/li[.="DMS_Mechlink"] | Defs/*/recipeMaker/researchPrerequisites/li[.="DMS_Mechlink"] | Defs/ResearchProjectDef/prerequisites/li[.="DMS_Mechlink"] | Defs/Vehicles.UpgradeTreeDef/nodes/li/researchPrerequisites/li[.="DMS_Mechlink"]</xpath>
+        <value>
+            <li>DMS_AdvancedControl</li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/*/researchPrerequisite[.="DMS_Mechlink"] | Defs/*/recipeMaker/researchPrerequisite[.="DMS_Mechlink"]</xpath>
+        <value>
+            <researchPrerequisite>DMS_AdvancedControl</researchPrerequisite>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ScenarioDef/scenario/parts/li/project[.="DMS_Mechlink"]</xpath>
+        <value>
+            <project>DMS_AdvancedControl</project>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DMS_Mechlink"]</xpath>
+    </Operation>
+
+    <!-- Specialized design into Ergonomics -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/*/researchPrerequisites/li[.="DMS_Ronin"] | Defs/*/recipeMaker/researchPrerequisites/li[.="DMS_Ronin"] | Defs/ResearchProjectDef/prerequisites/li[.="DMS_Ronin"] | Defs/Vehicles.UpgradeTreeDef/nodes/li/researchPrerequisites/li[.="DMS_Ronin"]</xpath>
+        <value>
+            <li>DMS_HumanoidEngineering</li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/*/researchPrerequisite[.="DMS_Ronin"] | Defs/*/recipeMaker/researchPrerequisite[.="DMS_Ronin"]</xpath>
+        <value>
+            <researchPrerequisite>DMS_HumanoidEngineering</researchPrerequisite>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ScenarioDef/scenario/parts/li/project[.="DMS_Ronin"]</xpath>
+        <value>
+            <project>DMS_HumanoidEngineering</project>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DMS_Ronin"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DMS_HumanoidEngineering"]/baseCost</xpath>
+        <value>
+            <baseCost>2500</baseCost>
+        </value>
+    </Operation>
+
+    <!-- Heavy Automatroid into Wetware Hypothesis -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/*/researchPrerequisites/li[.="DMS_HeavyAutomatroid"] | Defs/*/recipeMaker/researchPrerequisites/li[.="DMS_HeavyAutomatroid"] | Defs/ResearchProjectDef/prerequisites/li[.="DMS_HeavyAutomatroid"] | Defs/Vehicles.UpgradeTreeDef/nodes/li/researchPrerequisites/li[.="DMS_HeavyAutomatroid"]</xpath>
+        <value>
+            <li>DMS_Hypothesis</li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/*/researchPrerequisite[.="DMS_HeavyAutomatroid"] | Defs/*/recipeMaker/researchPrerequisite[.="DMS_HeavyAutomatroid"]</xpath>
+        <value>
+            <researchPrerequisite>DMS_Hypothesis</researchPrerequisite>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ScenarioDef/scenario/parts/li/project[.="DMS_HeavyAutomatroid"]</xpath>
+        <value>
+            <project>DMS_Hypothesis</project>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DMS_HeavyAutomatroid"]</xpath>
+    </Operation>
+
+    <!-- Artificial Muscle into Artificial Fiber; Sterile materials moves onto its items -->
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/*[researchPrerequisites/li="DMS_Artifuscle"]/researchPrerequisites | Defs/*/recipeMaker[researchPrerequisites/li="DMS_Artifuscle"]/researchPrerequisites | Defs/*[researchPrerequisite="DMS_Artifuscle"]/researchPrerequisites | Defs/*/recipeMaker[researchPrerequisite="DMS_Artifuscle"]/researchPrerequisites | Defs/ResearchProjectDef[prerequisites/li="DMS_Artifuscle"]/prerequisites</xpath>
+        <value>
+            <li>SterileMaterials</li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/*[researchPrerequisite="DMS_Artifuscle" and not(researchPrerequisites)] | Defs/*/recipeMaker[researchPrerequisite="DMS_Artifuscle" and not(researchPrerequisites)]</xpath>
+        <value>
+            <researchPrerequisites><li>SterileMaterials</li></researchPrerequisites>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/*/researchPrerequisites/li[.="DMS_Artifuscle"] | Defs/*/recipeMaker/researchPrerequisites/li[.="DMS_Artifuscle"] | Defs/ResearchProjectDef/prerequisites/li[.="DMS_Artifuscle"] | Defs/Vehicles.UpgradeTreeDef/nodes/li/researchPrerequisites/li[.="DMS_Artifuscle"]</xpath>
+        <value>
+            <li>DMS_Plasfiber</li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/*/researchPrerequisite[.="DMS_Artifuscle"] | Defs/*/recipeMaker/researchPrerequisite[.="DMS_Artifuscle"]</xpath>
+        <value>
+            <researchPrerequisite>DMS_Plasfiber</researchPrerequisite>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ScenarioDef/scenario/parts/li/project[.="DMS_Artifuscle"]</xpath>
+        <value>
+            <project>DMS_Plasfiber</project>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DMS_Artifuscle"]</xpath>
+    </Operation>
+
+</Patch>
