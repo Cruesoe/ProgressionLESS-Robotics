@@ -160,7 +160,7 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Apparel_PackBandwidth"]/recipeMaker/researchPrerequisite</xpath>
         <value>
-            <researchPrerequisite>Ferny_ControlSublink</researchPrerequisite>
+            <researchPrerequisite>Ferny_ControlSublinkHigh</researchPrerequisite>
         </value>
     </Operation>
 
