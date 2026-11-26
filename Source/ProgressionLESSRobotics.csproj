@@ -3,9 +3,4 @@
     <RootNamespace>ProgressionLESSRobotics</RootNamespace>
     <AssemblyName>ProgressionLESSRobotics</AssemblyName>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Krafs.Publicizer" Version="2.*" PrivateAssets="all" />
-    <Publicize Include="Assembly-CSharp" />
-  </ItemGroup>
 </Project>

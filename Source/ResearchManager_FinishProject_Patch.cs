@@ -7,8 +7,10 @@ namespace ProgressionLESSRobotics
     [HarmonyPatch(typeof(ResearchManager), nameof(ResearchManager.FinishProject))]
     public static class ResearchManager_FinishProject_Patch
     {
-        public static void Postfix(ResearchProjectDef proj, Pawn researcher)
+        public static void Postfix(ResearchProjectDef proj, Pawn researcher, bool doCompletionLetter)
         {
+            // Silent completions (starting research, scenario, colony move) don't send the quest
+            if (!doCompletionLetter) return;
             var extension = proj.GetModExtension<QuestOnResearchExtension>();
             if (extension?.questDef != null)
             {

@@ -110,10 +110,4 @@
         </value>
     </Operation>
 
-    <!-- ballistic platform research unlocks nothing -->
-    <Operation Class="PatchOperationRemove">
-        <success>Always</success>
-        <xpath>Defs/ResearchProjectDef[defName="DMSE_Ballistics"]</xpath>
-    </Operation>
-
 </Patch>

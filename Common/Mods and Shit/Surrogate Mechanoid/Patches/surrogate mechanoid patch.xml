@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Patch>   
 
-    <Operation Class="PatchOperationAdd">
-        <success>Always</success>
-        <xpath>Defs/RecipeDef[defName="Surrogate"]</xpath>
-        <value>
-            <researchPrerequisite>Ferny_Surrogate</researchPrerequisite>
-        </value>
+    <!-- Replace the recipe's research field where it has one, so it never ends up with two -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/RecipeDef[defName="Surrogate"]/researchPrerequisite</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/RecipeDef[defName="Surrogate"]/researchPrerequisite</xpath>
+            <value>
+                <researchPrerequisite>Ferny_Surrogate</researchPrerequisite>
+            </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/RecipeDef[defName="Surrogate"]</xpath>
+            <value>
+                <researchPrerequisite>Ferny_Surrogate</researchPrerequisite>
+            </value>
+        </nomatch>
     </Operation>
 
 </Patch>

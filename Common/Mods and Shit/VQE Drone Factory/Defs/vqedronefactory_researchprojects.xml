@@ -13,19 +13,6 @@
 			<li>VQE_Dronetech</li>
 		</prerequisites>
 	</ResearchProjectDef>
-	<!-- <ResearchProjectDef>
-		<defName>Ferny_CleanerDrone</defName>
-		<label>Cleaner drone</label>
-		<description>Design and build a maintenance-oriented drone for cleaning and upkeep tasks. The drone is equipped with a small cleaning brush, making it proficient in scrubbing surfaces.</description>
-		<baseCost>900</baseCost>
-		<techLevel>Industrial</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>2.90</researchViewY>
-		<tab>VanillaExpanded</tab>
-		<prerequisites>
-			<li>VQE_Dronetech</li>
-		</prerequisites>
-	</ResearchProjectDef> -->
 	<ResearchProjectDef>
 		<defName>Ferny_HaulerDrone</defName>
 		<label>Work drones</label>

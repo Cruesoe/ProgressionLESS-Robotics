@@ -60,13 +60,6 @@
     </value>
 </Operation>
 
-<!-- <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]/label</xpath>
-    <value>
-        <label>Mechanoids</label>
-    </value>
-</Operation> -->
 <Operation Class="PatchOperationReplace">
     <success>Always</success>
     <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]/baseCost</xpath>
@@ -91,13 +84,6 @@
 </Operation>
 
 
-<!-- <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]/label</xpath>
-    <value>
-        <label>Large mech gestator</label>
-    </value>
-</Operation> -->
 <Operation Class="PatchOperationReplace">
     <success>Always</success>
     <xpath>Defs/ResearchProjectDef[defName="StandardMechtech"]/baseCost</xpath>
@@ -117,13 +103,6 @@
 </Operation>
 
 
-<!-- <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>Defs/ResearchProjectDef[defName="HighMechtech"]/label</xpath>
-    <value>
-        <label>Subcore ripscanner</label>
-    </value>
-</Operation> -->
 <Operation Class="PatchOperationReplace">
     <success>Always</success>
     <xpath>Defs/ResearchProjectDef[defName="HighMechtech"]/baseCost</xpath>
@@ -258,23 +237,24 @@
     </Operation>
 
 
-    <Operation Class="PatchOperationAdd">
-        <success>Always</success>
-        <xpath>Defs/RecipeDef[defName="Paramedic"]</xpath>
-        <value>
-            <researchPrerequisite>Ferny_Fabricor</researchPrerequisite>
-        </value>
+    <!-- Replace the recipe's research field where it has one, so it never ends up with two -->
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/RecipeDef[defName="Paramedic"]/researchPrerequisite</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/RecipeDef[defName="Paramedic"]/researchPrerequisite</xpath>
+            <value>
+                <researchPrerequisite>Ferny_Fabricor</researchPrerequisite>
+            </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/RecipeDef[defName="Paramedic"]</xpath>
+            <value>
+                <researchPrerequisite>Ferny_Fabricor</researchPrerequisite>
+            </value>
+        </nomatch>
     </Operation>
 
 
-
-    <!-- <Operation Class="PatchOperationAdd">
-        <success>Always</success>
-        <xpath>Defs/RecipeDef[defName="Constructoid"]</xpath>
-        <value>
-            <researchPrerequisite>Ferny_Constructoid</researchPrerequisite>
-        </value>
-    </Operation> -->
 
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="Apparel_PackControl"]/recipeMaker/researchPrerequisite</xpath>
@@ -282,14 +262,6 @@
             <researchPrerequisite>Ferny_ControlSublink</researchPrerequisite>
         </value>
     </Operation>
-
-    <!-- <Operation Class="PatchOperationAdd">
-        <success>Always</success>
-        <xpath>Defs/RecipeDef[defName="Lifter"]</xpath>
-        <value>
-            <researchPrerequisite>Ferny_Lifter</researchPrerequisite>
-        </value>
-    </Operation> -->
 
     <Operation Class="PatchOperationAdd">
         <success>Always</success>
@@ -323,12 +295,20 @@
         </value>
     </Operation>
 
-    <Operation Class="PatchOperationAdd">
-        <success>Always</success>
-        <xpath>Defs/RecipeDef[defName="Tunneler"]</xpath>
-        <value>
-            <researchPrerequisite>Ferny_Excavator</researchPrerequisite>
-        </value>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/RecipeDef[defName="Tunneler"]/researchPrerequisite</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/RecipeDef[defName="Tunneler"]/researchPrerequisite</xpath>
+            <value>
+                <researchPrerequisite>Ferny_Excavator</researchPrerequisite>
+            </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/RecipeDef[defName="Tunneler"]</xpath>
+            <value>
+                <researchPrerequisite>Ferny_Excavator</researchPrerequisite>
+            </value>
+        </nomatch>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
@@ -347,20 +327,36 @@
         </value>
     </Operation>
 
-    <Operation Class="PatchOperationAdd">
-        <success>Always</success>
-        <xpath>Defs/RecipeDef[defName="Diabolus"]</xpath>
-        <value>
-            <researchPrerequisite>Ferny_Centipedes</researchPrerequisite>
-        </value>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/RecipeDef[defName="Diabolus"]/researchPrerequisite</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/RecipeDef[defName="Diabolus"]/researchPrerequisite</xpath>
+            <value>
+                <researchPrerequisite>Ferny_Centipedes</researchPrerequisite>
+            </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/RecipeDef[defName="Diabolus"]</xpath>
+            <value>
+                <researchPrerequisite>Ferny_Centipedes</researchPrerequisite>
+            </value>
+        </nomatch>
     </Operation>
 
-    <Operation Class="PatchOperationAdd">
-        <success>Always</success>
-        <xpath>Defs/RecipeDef[defName="Fabricor"]</xpath>
-        <value>
-            <researchPrerequisite>Ferny_Fabricor</researchPrerequisite>
-        </value>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/RecipeDef[defName="Fabricor"]/researchPrerequisite</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/RecipeDef[defName="Fabricor"]/researchPrerequisite</xpath>
+            <value>
+                <researchPrerequisite>Ferny_Fabricor</researchPrerequisite>
+            </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/RecipeDef[defName="Fabricor"]</xpath>
+            <value>
+                <researchPrerequisite>Ferny_Fabricor</researchPrerequisite>
+            </value>
+        </nomatch>
     </Operation>
 
     <Operation Class="PatchOperationAdd">
@@ -387,12 +383,20 @@
         </value>
     </Operation>
 
-    <Operation Class="PatchOperationAdd">
-        <success>Always</success>
-        <xpath>Defs/RecipeDef[defName="CentipedeBlaster"]</xpath>
-        <value>
-            <researchPrerequisite>Ferny_Legionary</researchPrerequisite>
-        </value>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/RecipeDef[defName="CentipedeBlaster"]/researchPrerequisite</xpath>
+        <match Class="PatchOperationReplace">
+            <xpath>Defs/RecipeDef[defName="CentipedeBlaster"]/researchPrerequisite</xpath>
+            <value>
+                <researchPrerequisite>Ferny_Legionary</researchPrerequisite>
+            </value>
+        </match>
+        <nomatch Class="PatchOperationAdd">
+            <xpath>Defs/RecipeDef[defName="CentipedeBlaster"]</xpath>
+            <value>
+                <researchPrerequisite>Ferny_Legionary</researchPrerequisite>
+            </value>
+        </nomatch>
     </Operation>
 
     <!-- Centipede blaster still needs the centipedes research -->
