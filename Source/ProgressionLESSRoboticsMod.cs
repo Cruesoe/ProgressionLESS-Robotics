@@ -7,7 +7,7 @@ namespace ProgressionLESSRobotics
     {
         public ProgressionLESSRoboticsMod(ModContentPack pack) : base(pack)
         {
-            new Harmony("cruesoe.progressionlessrobotics").PatchAll();
+            new Harmony("cruesoe.progressionlessrobotics").PatchAll(typeof(ProgressionLESSRoboticsMod).Assembly);
         }
     }
 }

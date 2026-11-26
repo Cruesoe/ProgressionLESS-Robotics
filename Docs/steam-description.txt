@@ -32,6 +32,7 @@ Keeps all of the original's mod support:
 [*]Pal5k's Hunter, Scrambler and Logistics Mechanoids.
 [*]Excavator Mechanoid, Mechanoid Waiter and Surrogate Mechanoid.
 [*]Simple Additions: Starfire Boss.
+[*]The Dead Man's Switch, with its Expedition, MobileDragoon and Synthriada add-ons (1.7 only). Their 50 research projects become at most 38, and Mechanoids comes after the suite's automatroid research.
 [/list]
 
 [b]Replaces the original. Don't use both.[/b]

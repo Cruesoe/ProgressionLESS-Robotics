@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Breaking the Boundary into Heterogeneous bioengineering -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/*/researchPrerequisites/li[.="DMSSR_Xenogenetics"] | Defs/*/recipeMaker/researchPrerequisites/li[.="DMSSR_Xenogenetics"] | Defs/ResearchProjectDef/prerequisites/li[.="DMSSR_Xenogenetics"] | Defs/Vehicles.UpgradeTreeDef/nodes/li/researchPrerequisites/li[.="DMSSR_Xenogenetics"]</xpath>
+        <value>
+            <li>DMSSR_Embryte</li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/*/researchPrerequisite[.="DMSSR_Xenogenetics"] | Defs/*/recipeMaker/researchPrerequisite[.="DMSSR_Xenogenetics"]</xpath>
+        <value>
+            <researchPrerequisite>DMSSR_Embryte</researchPrerequisite>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ScenarioDef/scenario/parts/li/project[.="DMSSR_Xenogenetics"]</xpath>
+        <value>
+            <project>DMSSR_Embryte</project>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DMSSR_Xenogenetics"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DMSSR_Embryte"]/baseCost</xpath>
+        <value>
+            <baseCost>2000</baseCost>
+        </value>
+    </Operation>
+
+    <!-- Soliton theory needs Heavy Weaponry instead of nothing -->
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DMSSR_Soliton"]/prerequisites</xpath>
+        <value>
+            <li>DMS_EquipmentHeavy</li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DMSSR_Soliton" and not(prerequisites)]</xpath>
+        <value>
+            <prerequisites><li>DMS_EquipmentHeavy</li></prerequisites>
+        </value>
+    </Operation>
+
+</Patch>

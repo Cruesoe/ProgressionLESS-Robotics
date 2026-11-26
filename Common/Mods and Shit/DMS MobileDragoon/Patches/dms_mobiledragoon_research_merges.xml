@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- electronic modules into main battle dragoon; Microelectronics moves onto its items -->
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/*[researchPrerequisites/li="DMS_MobileDragoonModule"]/researchPrerequisites | Defs/*/recipeMaker[researchPrerequisites/li="DMS_MobileDragoonModule"]/researchPrerequisites | Defs/*[researchPrerequisite="DMS_MobileDragoonModule"]/researchPrerequisites | Defs/*/recipeMaker[researchPrerequisite="DMS_MobileDragoonModule"]/researchPrerequisites | Defs/ResearchProjectDef[prerequisites/li="DMS_MobileDragoonModule"]/prerequisites</xpath>
+        <value>
+            <li>MicroelectronicsBasics</li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/*[researchPrerequisite="DMS_MobileDragoonModule" and not(researchPrerequisites)] | Defs/*/recipeMaker[researchPrerequisite="DMS_MobileDragoonModule" and not(researchPrerequisites)]</xpath>
+        <value>
+            <researchPrerequisites><li>MicroelectronicsBasics</li></researchPrerequisites>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/*/researchPrerequisites/li[.="DMS_MobileDragoonModule"] | Defs/*/recipeMaker/researchPrerequisites/li[.="DMS_MobileDragoonModule"] | Defs/ResearchProjectDef/prerequisites/li[.="DMS_MobileDragoonModule"] | Defs/Vehicles.UpgradeTreeDef/nodes/li/researchPrerequisites/li[.="DMS_MobileDragoonModule"]</xpath>
+        <value>
+            <li>DMS_MobileDragoonAdvanced</li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/*/researchPrerequisite[.="DMS_MobileDragoonModule"] | Defs/*/recipeMaker/researchPrerequisite[.="DMS_MobileDragoonModule"]</xpath>
+        <value>
+            <researchPrerequisite>DMS_MobileDragoonAdvanced</researchPrerequisite>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ScenarioDef/scenario/parts/li/project[.="DMS_MobileDragoonModule"]</xpath>
+        <value>
+            <project>DMS_MobileDragoonAdvanced</project>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DMS_MobileDragoonModule"]</xpath>
+    </Operation>
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DMS_MobileDragoonAdvanced"]/baseCost</xpath>
+        <value>
+            <baseCost>3000</baseCost>
+        </value>
+    </Operation>
+
+</Patch>

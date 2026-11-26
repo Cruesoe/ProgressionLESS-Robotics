@@ -28,6 +28,13 @@
     <li>Common</li>
     <li>1.7</li>
 
+    <!-- The Dead Man's Switch: above Biotech, whose Mechanoids patch must run first -->
+    <li IfModActive="Aoba.DeadManSwitch.Core">Common/Mods and Shit/Dead Man's Switch</li>
+    <li IfModActiveAll="Aoba.DeadManSwitch.Core,Aoba.DeadManSwitch.Expedition">Common/Mods and Shit/DMS Expedition</li>
+    <li IfModActiveAll="Aoba.DeadManSwitch.Core,Aoba.DeadManSwitch.MobileDragoon">Common/Mods and Shit/DMS MobileDragoon</li>
+    <li IfModActiveAll="Aoba.DeadManSwitch.Core,Cephalopod.DeadManSwitch.Synthriada">Common/Mods and Shit/DMS Synthriada</li>
+    <li IfModActiveAll="Aoba.DeadManSwitch.Core,ferny.BetterArchitect">Common/Mods and Shit/DMS Better Architect</li>
+
     <!-- General -->
     <li IfModActive="ludeon.rimworld.odyssey">Common/Mods and Shit/Odyssey</li>
     <li IfModActiveAll="as1aw.morehunterdrones,ludeon.rimworld.odyssey">Common/Mods and Shit/More Hunter Drones</li>

@@ -62,16 +62,6 @@
     </value>
 </Operation>
 
-<!-- <Operation Class="PatchOperationReplace">
-    <success>Always</success>
-    <xpath>Defs/RecipeDef[defName="VQE_AssembleCleanerDrone"]/researchPrerequisites</xpath>
-    <value>
-        <researchPrerequisites>
-            <li>Ferny_CleanerDrone</li>
-        </researchPrerequisites>
-    </value>
-</Operation> -->
-
 <Operation Class="PatchOperationReplace">
     <success>Always</success>
     <xpath>Defs/RecipeDef[defName="VQE_AssembleHaulerDrone"]/researchPrerequisites</xpath>

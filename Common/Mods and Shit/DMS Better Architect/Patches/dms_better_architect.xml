@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Better Architect Menu adds its own build category to DMS benches and turrets that already have one; drop DMS's so each keeps one, whichever patches first -->
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[@ParentName="DMS_AutofacturerBenchBase" or @ParentName="DMS_BaseCannonBuilding"]/designationCategory[not(starts-with(., "Ferny_"))]</xpath>
+    </Operation>
+
+</Patch>

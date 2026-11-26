@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+    <!-- Drone tech waits for Hunter drones, VQE Dronetech and Microelectronics -->
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DMS_UAVBasis"]/prerequisites</xpath>
+        <value>
+            <li MayRequire="Ludeon.RimWorld.Odyssey">HunterDrones</li>
+            <li MayRequire="vanillaquestsexpanded.dronefactory">VQE_Dronetech</li>
+            <li>MicroelectronicsBasics</li>
+        </value>
+    </Operation>
+
+    <!-- Mechanoids waits for the end of each DMS mech branch (after the merges: Next-Gen Weaponry, Automatroid Basis, Mecha Gear, Ergonomics) -->
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="BasicMechtech"]/prerequisites</xpath>
+        <value>
+            <li>DMS_Synthroid</li>
+            <li>DMS_Automatroid</li>
+            <li>DMS_MechBasis</li>
+            <li>DMS_HumanoidEngineering</li>
+        </value>
+    </Operation>
+
+    <!-- The Cluster transceiver item also needs Mechanoids -->
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="DMS_MechLink"]/recipeMaker/researchPrerequisites</xpath>
+        <value>
+            <li>BasicMechtech</li>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="DMS_MechLink"]/recipeMaker[not(researchPrerequisites)]</xpath>
+        <value>
+            <researchPrerequisites><li>BasicMechtech</li></researchPrerequisites>
+        </value>
+    </Operation>
+
+    <!-- The remaining Spacer projects become Industrial, so the tab stays in one era -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ResearchProjectDef[defName="DMS_Hypothesis" or defName="DMS_Synthroid"]/techLevel</xpath>
+        <value>
+            <techLevel>Industrial</techLevel>
+        </value>
+    </Operation>
+
+    <!-- Okhotnik turret needs Heavy turrets and Military Equipment -->
+    <Operation Class="PatchOperationRemove">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="DMS_Turret_Okhotnik"]/researchPrerequisites</xpath>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/ThingDef[defName="DMS_Turret_Okhotnik"]</xpath>
+        <value>
+            <researchPrerequisites Inherit="False">
+                <li>HeavyTurrets</li>
+                <li>DMS_EquipmentElite</li>
+            </researchPrerequisites>
+        </value>
+    </Operation>
+
+    <!-- Last Command starts with a Boid Controller instead of the Cluster transceiver, with Machining -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/ScenarioDef[defName="DMS_Scenario"]/scenario/parts/li[thingDef="DMS_MechLink"]/thingDef</xpath>
+        <value>
+            <thingDef>DMS_MechLink_Nerfed</thingDef>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <success>Always</success>
+        <xpath>Defs/ScenarioDef[defName="DMS_Scenario"]/scenario/parts[not(li[project="Machining"])]</xpath>
+        <value>
+            <li Class="ScenPart_StartingResearch">
+                <def>StartingResearch</def>
+                <project>Machining</project>
+            </li>
+        </value>
+    </Operation>
+
+    <!-- DMS player factions start Industrial -->
+    <Operation Class="PatchOperationReplace">
+        <success>Always</success>
+        <xpath>Defs/FactionDef[@Name="DMS_PlayerFactionBase"]/techLevel</xpath>
+        <value>
+            <techLevel>Industrial</techLevel>
+        </value>
+    </Operation>
+
+</Patch>

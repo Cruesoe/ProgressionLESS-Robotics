@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<!-- <ResearchProjectDef>
-		<defName>Ferny_Daggersnout</defName>
-		<label>Daggersnout</label>
-		<description>Build a a fast, insectlike combat mechanoid armed with a vicious sharp blade on its head. It isn't as dangerous as other close-ranged mechanoids, such as scythers, but they usually appear in greater numbers.</description>
-		<baseCost>500</baseCost>
-		<techLevel>Spacer</techLevel>
-		<researchViewX>4.50</researchViewX>
-		<researchViewY>1.00</researchViewY>
-		<requiredResearchBuilding>HiTechResearchBench</requiredResearchBuilding>
-		<prerequisites>
-			<li>BasicMechtech</li>
-		</prerequisites>
-		<requiredResearchFacilities>
-		<li>MultiAnalyzer</li>
-		</requiredResearchFacilities>
-	</ResearchProjectDef> -->
 	<ResearchProjectDef>
 		<defName>Ferny_MechEfficiencyBooster</defName>
 		<label>Mech field boosters</label>

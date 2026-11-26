@@ -10,3 +10,4 @@ Directory.Build.targets
 AGENTS.md
 CLAUDE.md
 *.sln
+.vscode/

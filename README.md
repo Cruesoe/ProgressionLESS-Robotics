@@ -6,4 +6,6 @@ Research overhaul for robots, so each mech, drone and piece of mechanitor gear u
 
 The "LESS" is less research: Progression: Robotics adds up to 125 research projects depending on your mods. This fork groups them into at most 43 themed projects, such as Front-line mechs, Ranged mechs, Mechanitor gear, Hunter drone traps and Conquerors. Everything stays in the same era and at the same mech tier, and still needs the other research it did before.
 
+On 1.7, The Dead Man's Switch and its Expedition, MobileDragoon and Synthriada add-ons are merged the same way, and Mechanoids comes after their automatroid research.
+
 Forked from [Progression: Robotics](https://steamcommunity.com/sharedfiles/filedetails/?id=3736402055) by ferny. Huge thanks to ferny for the original mod and all the Progression work this builds on. For a really good modpack, check out [The Progression Modpack](https://steamcommunity.com/sharedfiles/filedetails/?id=3521297585).
